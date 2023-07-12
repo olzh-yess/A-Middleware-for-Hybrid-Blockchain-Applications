@@ -1,0 +1,10 @@
+{
+  "ganache": {
+    "ThanksPaySalaryToken": "0x6a033515A9AAa657b2039F85eA41dDe0a4592f3c",
+    "BatcherAccountable": "0xc2d74d8F2cb8F0EE77F104a7688025cfD3F8F75C"
+  },
+  "sepolia": {
+    "ThanksPaySalaryToken": "0xf4B24729375c714D335649BFd4146c65c4B89046",
+    "BatcherAccountable": "0xdf06C3218d13430fb51bF47F624d7250473b84D6"
+  }
+}
