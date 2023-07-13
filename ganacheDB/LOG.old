@@ -1,9 +1,5 @@
-2023/07/12-03:07:46.686105 7fdcb2cfe640 Recovering log #25
-2023/07/12-03:07:46.686465 7fdcb2cfe640 Level-0 table #27: started
-2023/07/12-03:07:46.692761 7fdcb2cfe640 Level-0 table #27: 39259 bytes OK
-2023/07/12-03:07:46.699715 7fdcb2cfe640 Delete type=0 #25
-2023/07/12-03:07:46.699785 7fdcb2cfe640 Delete type=3 #23
-2023/07/12-03:07:46.699933 7fdcb0cfa640 Compacting 4@0 + 1@1 files
-2023/07/12-03:07:46.717452 7fdcb0cfa640 Generated table #29@0: 608 keys, 326116 bytes
-2023/07/12-03:07:46.717479 7fdcb0cfa640 Compacted 4@0 + 1@1 files => 326116 bytes
-2023/07/12-03:07:46.719858 7fdcb0cfa640 compacted to: files[ 0 1 0 0 0 0 0 ]
+2023/07/13-17:29:14.443 2238 Recovering log #6
+2023/07/13-17:29:14.443 2238 Level-0 table #8: started
+2023/07/13-17:29:14.447 2238 Level-0 table #8: 59302 bytes OK
+2023/07/13-17:29:14.451 2238 Delete type=0 #6
+2023/07/13-17:29:14.451 2238 Delete type=3 #4

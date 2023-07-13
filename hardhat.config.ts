@@ -1,14 +1,22 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-require("@nomicfoundation/hardhat-toolbox");
+require("@nomiclabs/hardhat-ethers");
+
+// const {ethers} = require('hardhat');
+import '@nomiclabs/hardhat-waffle'
+import '@typechain/hardhat'
+import { HardhatUserConfig } from 'hardhat/config'
+import 'hardhat-deploy'
+import '@nomiclabs/hardhat-etherscan'
 require("dotenv").config();
+// const { task, ethers, hre } = require('hardhat');
 const fs = require("fs");
 const path = require("path");
 const mnemonic = process.env.SEPOLIA_MNEMONIC ? process.env.SEPOLIA_MNEMONIC : "MNEMONIC NOT FOUND!";
 
 
 task("deploy", "Deploys the contract")
-  .setAction(async (taskArgs) => {
+  .setAction(async (taskArgs: any) => {
     // Determine name of the network
     const networkName = hre.network.name;
 
