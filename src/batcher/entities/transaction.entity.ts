@@ -1,9 +1,13 @@
-import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
+import { Entity, Column, PrimaryGeneratedColumn, Unique } from 'typeorm';
 
 @Entity()
+@Unique(['positionNonce', 'batchNonce']) // Creating unique constraint on a combination of columns
 export class Transaction {
     @PrimaryGeneratedColumn()
-    positionNonce!: number;
+    id!: number;
+
+    @Column()
+    positionNonce!: number;  // replace types with actual ones
 
     @Column()
     batchNonce!: number;

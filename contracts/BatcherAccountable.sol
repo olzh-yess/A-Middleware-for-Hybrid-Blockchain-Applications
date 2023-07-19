@@ -123,7 +123,7 @@ contract BatcherAccountable {
             );
 
             // bool success = ThrowawayAccount(throwawayAccountAddr).executeTransaction(contractAddr, txArray[i]);
-            require(success, 'Transaction execution failed');
+            require(success, 'Target contract was not executed!');
         }
         batchHashes[batchNonce] = keccak256(abi.encode(txArray));
         // currentBatchNonce = batchNonce;

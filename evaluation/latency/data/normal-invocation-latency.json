@@ -1,0 +1,56 @@
+{
+    "addPartnerCompany": [
+        {
+            "latencies": [
+                28354,
+                11029
+            ],
+            "average_latency": 19691.5
+        }
+    ],
+    "addWorker": [
+        {
+            "latencies": [
+                11048,
+                11072
+            ],
+            "average_latency": 11060
+        }
+    ],
+    "mintTokens": [
+        {
+            "latencies": [
+                10361,
+                15038
+            ],
+            "average_latency": 12699.5
+        }
+    ],
+    "salaryDay": [
+        {
+            "latencies": [
+                6448,
+                34924
+            ],
+            "average_latency": 20686
+        }
+    ],
+    "burnTokens": [
+        {
+            "latencies": [
+                7041,
+                11080
+            ],
+            "average_latency": 9060.5
+        }
+    ],
+    "settlePartnerDebt": [
+        {
+            "latencies": [
+                15051,
+                11160
+            ],
+            "average_latency": 13105.5
+        }
+    ]
+}

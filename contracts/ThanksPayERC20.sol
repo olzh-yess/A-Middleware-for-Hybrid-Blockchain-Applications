@@ -3,8 +3,9 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/metatx/ERC2771Context.sol";
-
+import "@ganache/console.log/console.sol";
 contract ThanksPaySalaryToken is ERC20Burnable, ERC2771Context {
+
     // Mapping to track partner companies
     mapping(address => bool) public partnerCompanies;
 
@@ -63,6 +64,8 @@ contract ThanksPaySalaryToken is ERC20Burnable, ERC2771Context {
     }
 
     function addPartnerCompany(address companyAddress) external onlyOwner() {
+        console.log("Adding partner company");
+        console.log(companyAddress);
         partnerCompanies[companyAddress] = true;
     }
 

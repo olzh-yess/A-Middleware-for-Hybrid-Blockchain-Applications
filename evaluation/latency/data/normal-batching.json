@@ -1,0 +1,1220 @@
+{
+  "high": {
+    "throughput": "100,000 transactions per day",
+    "variance": 0.18873888670648692,
+    "data": [
+      {
+        "batchSize": 1,
+        "timeToFill": 0.0027103923242790848
+      },
+      {
+        "batchSize": 2,
+        "timeToFill": 0.010100887417336772
+      },
+      {
+        "batchSize": 3,
+        "timeToFill": 0.06473988494183092
+      },
+      {
+        "batchSize": 4,
+        "timeToFill": 0.062172509060690107
+      },
+      {
+        "batchSize": 5,
+        "timeToFill": 0.04945793013970472
+      },
+      {
+        "batchSize": 6,
+        "timeToFill": 0.10480568910540553
+      },
+      {
+        "batchSize": 7,
+        "timeToFill": 0.12380024388105318
+      },
+      {
+        "batchSize": 8,
+        "timeToFill": 0.057039756655705376
+      },
+      {
+        "batchSize": 9,
+        "timeToFill": 0.08781285655785936
+      },
+      {
+        "batchSize": 10,
+        "timeToFill": 0.1665587851186761
+      },
+      {
+        "batchSize": 11,
+        "timeToFill": 0.16260934317081216
+      },
+      {
+        "batchSize": 12,
+        "timeToFill": 0.11937225586099769
+      },
+      {
+        "batchSize": 13,
+        "timeToFill": 0.1729423870942171
+      },
+      {
+        "batchSize": 14,
+        "timeToFill": 0.11856459113095708
+      },
+      {
+        "batchSize": 15,
+        "timeToFill": 0.21153587175603306
+      },
+      {
+        "batchSize": 16,
+        "timeToFill": 0.2832585245246809
+      },
+      {
+        "batchSize": 17,
+        "timeToFill": 0.28310656601360484
+      },
+      {
+        "batchSize": 18,
+        "timeToFill": 0.22464189982650684
+      },
+      {
+        "batchSize": 19,
+        "timeToFill": 0.2544278007893795
+      },
+      {
+        "batchSize": 20,
+        "timeToFill": 0.2344808945336296
+      },
+      {
+        "batchSize": 21,
+        "timeToFill": 0.3602911202937253
+      },
+      {
+        "batchSize": 22,
+        "timeToFill": 0.42488557886780526
+      },
+      {
+        "batchSize": 23,
+        "timeToFill": 0.32881853983454346
+      },
+      {
+        "batchSize": 24,
+        "timeToFill": 0.28570803324320154
+      },
+      {
+        "batchSize": 25,
+        "timeToFill": 0.20836277706936246
+      },
+      {
+        "batchSize": 26,
+        "timeToFill": 0.30892640333401594
+      },
+      {
+        "batchSize": 27,
+        "timeToFill": 0.3802160127232101
+      },
+      {
+        "batchSize": 28,
+        "timeToFill": 0.42224241587309264
+      },
+      {
+        "batchSize": 29,
+        "timeToFill": 0.43010963624074644
+      },
+      {
+        "batchSize": 30,
+        "timeToFill": 0.4043198180720066
+      },
+      {
+        "batchSize": 31,
+        "timeToFill": 0.4978990148854128
+      },
+      {
+        "batchSize": 32,
+        "timeToFill": 0.4061272985847711
+      },
+      {
+        "batchSize": 33,
+        "timeToFill": 0.4341065846723541
+      },
+      {
+        "batchSize": 34,
+        "timeToFill": 0.4394395987897027
+      },
+      {
+        "batchSize": 35,
+        "timeToFill": 0.4914183609327239
+      },
+      {
+        "batchSize": 36,
+        "timeToFill": 0.5942199872049205
+      },
+      {
+        "batchSize": 37,
+        "timeToFill": 0.5014608766605908
+      },
+      {
+        "batchSize": 38,
+        "timeToFill": 0.3751014972815124
+      },
+      {
+        "batchSize": 39,
+        "timeToFill": 0.4798896291200911
+      },
+      {
+        "batchSize": 40,
+        "timeToFill": 0.5429191082641558
+      },
+      {
+        "batchSize": 41,
+        "timeToFill": 0.43105174248665845
+      },
+      {
+        "batchSize": 42,
+        "timeToFill": 0.5355327906852243
+      },
+      {
+        "batchSize": 43,
+        "timeToFill": 0.5745597292903518
+      },
+      {
+        "batchSize": 44,
+        "timeToFill": 0.6932103562034855
+      },
+      {
+        "batchSize": 45,
+        "timeToFill": 0.7726905000315657
+      },
+      {
+        "batchSize": 46,
+        "timeToFill": 0.5954926023910622
+      },
+      {
+        "batchSize": 47,
+        "timeToFill": 0.6399665194408087
+      },
+      {
+        "batchSize": 48,
+        "timeToFill": 0.7964323059864115
+      },
+      {
+        "batchSize": 49,
+        "timeToFill": 0.7638869774365239
+      },
+      {
+        "batchSize": 50,
+        "timeToFill": 0.8526127032463249
+      },
+      {
+        "batchSize": 51,
+        "timeToFill": 0.6178896822882441
+      },
+      {
+        "batchSize": 52,
+        "timeToFill": 0.9699400784999946
+      },
+      {
+        "batchSize": 53,
+        "timeToFill": 0.7402473911644404
+      },
+      {
+        "batchSize": 54,
+        "timeToFill": 0.7181600077831929
+      },
+      {
+        "batchSize": 55,
+        "timeToFill": 0.9163471966735451
+      },
+      {
+        "batchSize": 56,
+        "timeToFill": 0.8060782273662764
+      },
+      {
+        "batchSize": 57,
+        "timeToFill": 0.6262512639721634
+      },
+      {
+        "batchSize": 58,
+        "timeToFill": 0.8160401724962022
+      },
+      {
+        "batchSize": 59,
+        "timeToFill": 0.8655767345581732
+      },
+      {
+        "batchSize": 60,
+        "timeToFill": 0.7591382460703684
+      },
+      {
+        "batchSize": 61,
+        "timeToFill": 0.9837680539024887
+      },
+      {
+        "batchSize": 62,
+        "timeToFill": 0.6221254818243107
+      },
+      {
+        "batchSize": 63,
+        "timeToFill": 0.8688902154562056
+      },
+      {
+        "batchSize": 64,
+        "timeToFill": 0.9417734502055356
+      },
+      {
+        "batchSize": 65,
+        "timeToFill": 0.8079815908456821
+      },
+      {
+        "batchSize": 66,
+        "timeToFill": 0.9781838212603928
+      },
+      {
+        "batchSize": 67,
+        "timeToFill": 1.0149599340214195
+      },
+      {
+        "batchSize": 68,
+        "timeToFill": 0.8639197480760663
+      },
+      {
+        "batchSize": 69,
+        "timeToFill": 1.0178229420191909
+      },
+      {
+        "batchSize": 70,
+        "timeToFill": 1.0050912973650965
+      },
+      {
+        "batchSize": 71,
+        "timeToFill": 1.1425960287275405
+      },
+      {
+        "batchSize": 72,
+        "timeToFill": 1.0779958353277284
+      },
+      {
+        "batchSize": 73,
+        "timeToFill": 1.2550602848592867
+      },
+      {
+        "batchSize": 74,
+        "timeToFill": 1.1322660026588247
+      },
+      {
+        "batchSize": 75,
+        "timeToFill": 0.8747822989418063
+      },
+      {
+        "batchSize": 76,
+        "timeToFill": 1.0185992062876896
+      },
+      {
+        "batchSize": 77,
+        "timeToFill": 1.1614479852739112
+      },
+      {
+        "batchSize": 78,
+        "timeToFill": 1.2901451659622596
+      },
+      {
+        "batchSize": 79,
+        "timeToFill": 0.9787854226539017
+      },
+      {
+        "batchSize": 80,
+        "timeToFill": 1.2676477459393252
+      },
+      {
+        "batchSize": 81,
+        "timeToFill": 1.3622505087391297
+      },
+      {
+        "batchSize": 82,
+        "timeToFill": 1.283306953805574
+      },
+      {
+        "batchSize": 83,
+        "timeToFill": 1.3207078994068766
+      },
+      {
+        "batchSize": 84,
+        "timeToFill": 1.2296608470798285
+      },
+      {
+        "batchSize": 85,
+        "timeToFill": 1.051749780477189
+      },
+      {
+        "batchSize": 86,
+        "timeToFill": 1.1879982632201949
+      },
+      {
+        "batchSize": 87,
+        "timeToFill": 1.2354167975270156
+      },
+      {
+        "batchSize": 88,
+        "timeToFill": 1.3138271412019358
+      },
+      {
+        "batchSize": 89,
+        "timeToFill": 1.4403952121631765
+      },
+      {
+        "batchSize": 90,
+        "timeToFill": 1.2750474596244754
+      },
+      {
+        "batchSize": 91,
+        "timeToFill": 1.37970551641698
+      },
+      {
+        "batchSize": 92,
+        "timeToFill": 1.4981051149336626
+      },
+      {
+        "batchSize": 93,
+        "timeToFill": 1.1749446324018773
+      },
+      {
+        "batchSize": 94,
+        "timeToFill": 1.2505138210913898
+      },
+      {
+        "batchSize": 95,
+        "timeToFill": 1.4093840852197648
+      },
+      {
+        "batchSize": 96,
+        "timeToFill": 1.424091380587246
+      },
+      {
+        "batchSize": 97,
+        "timeToFill": 1.304707561262324
+      },
+      {
+        "batchSize": 98,
+        "timeToFill": 1.4134351994531824
+      },
+      {
+        "batchSize": 99,
+        "timeToFill": 1.3109137627305365
+      },
+      {
+        "batchSize": 100,
+        "timeToFill": 1.4775781662150025
+      }
+    ]
+  },
+  "medium": {
+    "throughput": "1 transaction per minute",
+    "variance": 871.1784389527608,
+    "data": [
+      {
+        "batchSize": 1,
+        "timeToFill": 1.5277869307585847
+      },
+      {
+        "batchSize": 2,
+        "timeToFill": 2.9019184476968447
+      },
+      {
+        "batchSize": 3,
+        "timeToFill": 4.164466935107029
+      },
+      {
+        "batchSize": 4,
+        "timeToFill": 4.2307528701999635
+      },
+      {
+        "batchSize": 5,
+        "timeToFill": 4.594688722240887
+      },
+      {
+        "batchSize": 6,
+        "timeToFill": 6.825482791263656
+      },
+      {
+        "batchSize": 7,
+        "timeToFill": 6.240280672638638
+      },
+      {
+        "batchSize": 8,
+        "timeToFill": 4.294032222383946
+      },
+      {
+        "batchSize": 9,
+        "timeToFill": 9.179047872527798
+      },
+      {
+        "batchSize": 10,
+        "timeToFill": 10.312447934213257
+      },
+      {
+        "batchSize": 11,
+        "timeToFill": 7.219616271814949
+      },
+      {
+        "batchSize": 12,
+        "timeToFill": 12.640455547089505
+      },
+      {
+        "batchSize": 13,
+        "timeToFill": 13.381330183585053
+      },
+      {
+        "batchSize": 14,
+        "timeToFill": 14.68660396806251
+      },
+      {
+        "batchSize": 15,
+        "timeToFill": 12.219501161308033
+      },
+      {
+        "batchSize": 16,
+        "timeToFill": 13.590262143988914
+      },
+      {
+        "batchSize": 17,
+        "timeToFill": 16.55483574505471
+      },
+      {
+        "batchSize": 18,
+        "timeToFill": 15.95544283142859
+      },
+      {
+        "batchSize": 19,
+        "timeToFill": 15.778753605916739
+      },
+      {
+        "batchSize": 20,
+        "timeToFill": 18.124641820051263
+      },
+      {
+        "batchSize": 21,
+        "timeToFill": 20.886311259545494
+      },
+      {
+        "batchSize": 22,
+        "timeToFill": 19.47942771944488
+      },
+      {
+        "batchSize": 23,
+        "timeToFill": 25.49116948130698
+      },
+      {
+        "batchSize": 24,
+        "timeToFill": 26.23071424575192
+      },
+      {
+        "batchSize": 25,
+        "timeToFill": 19.447825157793158
+      },
+      {
+        "batchSize": 26,
+        "timeToFill": 32.71033755087671
+      },
+      {
+        "batchSize": 27,
+        "timeToFill": 23.79331696399011
+      },
+      {
+        "batchSize": 28,
+        "timeToFill": 22.876332742789057
+      },
+      {
+        "batchSize": 29,
+        "timeToFill": 20.928329146709043
+      },
+      {
+        "batchSize": 30,
+        "timeToFill": 37.63779685651621
+      },
+      {
+        "batchSize": 31,
+        "timeToFill": 30.166827421438807
+      },
+      {
+        "batchSize": 32,
+        "timeToFill": 34.78020544686826
+      },
+      {
+        "batchSize": 33,
+        "timeToFill": 34.77537688276339
+      },
+      {
+        "batchSize": 34,
+        "timeToFill": 29.69305985188229
+      },
+      {
+        "batchSize": 35,
+        "timeToFill": 31.07367638875144
+      },
+      {
+        "batchSize": 36,
+        "timeToFill": 35.82788384100078
+      },
+      {
+        "batchSize": 37,
+        "timeToFill": 36.10280684891182
+      },
+      {
+        "batchSize": 38,
+        "timeToFill": 37.57002347549362
+      },
+      {
+        "batchSize": 39,
+        "timeToFill": 39.602876241420674
+      },
+      {
+        "batchSize": 40,
+        "timeToFill": 39.34228817323123
+      },
+      {
+        "batchSize": 41,
+        "timeToFill": 36.91394813658265
+      },
+      {
+        "batchSize": 42,
+        "timeToFill": 43.57014832314869
+      },
+      {
+        "batchSize": 43,
+        "timeToFill": 42.24685259887272
+      },
+      {
+        "batchSize": 44,
+        "timeToFill": 34.997641533692786
+      },
+      {
+        "batchSize": 45,
+        "timeToFill": 43.47926468935924
+      },
+      {
+        "batchSize": 46,
+        "timeToFill": 36.39754044114746
+      },
+      {
+        "batchSize": 47,
+        "timeToFill": 37.24340142796706
+      },
+      {
+        "batchSize": 48,
+        "timeToFill": 49.997369349607936
+      },
+      {
+        "batchSize": 49,
+        "timeToFill": 46.5844643363321
+      },
+      {
+        "batchSize": 50,
+        "timeToFill": 46.06655513180162
+      },
+      {
+        "batchSize": 51,
+        "timeToFill": 58.24835184598581
+      },
+      {
+        "batchSize": 52,
+        "timeToFill": 47.57140126152103
+      },
+      {
+        "batchSize": 53,
+        "timeToFill": 48.56912069968258
+      },
+      {
+        "batchSize": 54,
+        "timeToFill": 78.45810507551307
+      },
+      {
+        "batchSize": 55,
+        "timeToFill": 47.572321783485215
+      },
+      {
+        "batchSize": 56,
+        "timeToFill": 58.13373455104153
+      },
+      {
+        "batchSize": 57,
+        "timeToFill": 58.2950974976204
+      },
+      {
+        "batchSize": 58,
+        "timeToFill": 63.644915828853186
+      },
+      {
+        "batchSize": 59,
+        "timeToFill": 54.18213147003793
+      },
+      {
+        "batchSize": 60,
+        "timeToFill": 61.240912753587786
+      },
+      {
+        "batchSize": 61,
+        "timeToFill": 65.14383601253071
+      },
+      {
+        "batchSize": 62,
+        "timeToFill": 57.01645748412191
+      },
+      {
+        "batchSize": 63,
+        "timeToFill": 53.15451920167094
+      },
+      {
+        "batchSize": 64,
+        "timeToFill": 76.3455151468442
+      },
+      {
+        "batchSize": 65,
+        "timeToFill": 69.87207913617574
+      },
+      {
+        "batchSize": 66,
+        "timeToFill": 74.48032405211502
+      },
+      {
+        "batchSize": 67,
+        "timeToFill": 62.7643836081974
+      },
+      {
+        "batchSize": 68,
+        "timeToFill": 73.86905186143224
+      },
+      {
+        "batchSize": 69,
+        "timeToFill": 79.1512231448731
+      },
+      {
+        "batchSize": 70,
+        "timeToFill": 70.80451986899669
+      },
+      {
+        "batchSize": 71,
+        "timeToFill": 58.64921784557348
+      },
+      {
+        "batchSize": 72,
+        "timeToFill": 76.1789559622563
+      },
+      {
+        "batchSize": 73,
+        "timeToFill": 65.31713153942607
+      },
+      {
+        "batchSize": 74,
+        "timeToFill": 74.89322097649968
+      },
+      {
+        "batchSize": 75,
+        "timeToFill": 84.6908317563081
+      },
+      {
+        "batchSize": 76,
+        "timeToFill": 76.06703805628561
+      },
+      {
+        "batchSize": 77,
+        "timeToFill": 71.82249032599775
+      },
+      {
+        "batchSize": 78,
+        "timeToFill": 90.94147368405555
+      },
+      {
+        "batchSize": 79,
+        "timeToFill": 68.9239154366784
+      },
+      {
+        "batchSize": 80,
+        "timeToFill": 72.80163470610012
+      },
+      {
+        "batchSize": 81,
+        "timeToFill": 100.47340139869378
+      },
+      {
+        "batchSize": 82,
+        "timeToFill": 80.8613344141815
+      },
+      {
+        "batchSize": 83,
+        "timeToFill": 84.60957038867258
+      },
+      {
+        "batchSize": 84,
+        "timeToFill": 86.26661185262749
+      },
+      {
+        "batchSize": 85,
+        "timeToFill": 83.17668610302596
+      },
+      {
+        "batchSize": 86,
+        "timeToFill": 82.32561603093238
+      },
+      {
+        "batchSize": 87,
+        "timeToFill": 80.85314810949416
+      },
+      {
+        "batchSize": 88,
+        "timeToFill": 81.18476523196453
+      },
+      {
+        "batchSize": 89,
+        "timeToFill": 87.61468142684595
+      },
+      {
+        "batchSize": 90,
+        "timeToFill": 94.44472268965373
+      },
+      {
+        "batchSize": 91,
+        "timeToFill": 97.68400775585572
+      },
+      {
+        "batchSize": 92,
+        "timeToFill": 96.42453777778702
+      },
+      {
+        "batchSize": 93,
+        "timeToFill": 82.9587523676835
+      },
+      {
+        "batchSize": 94,
+        "timeToFill": 94.11759079386721
+      },
+      {
+        "batchSize": 95,
+        "timeToFill": 90.7388762073056
+      },
+      {
+        "batchSize": 96,
+        "timeToFill": 87.74011112198039
+      },
+      {
+        "batchSize": 97,
+        "timeToFill": 91.001913660559
+      },
+      {
+        "batchSize": 98,
+        "timeToFill": 93.5265007828679
+      },
+      {
+        "batchSize": 99,
+        "timeToFill": 104.2253007427423
+      },
+      {
+        "batchSize": 100,
+        "timeToFill": 92.77454876240522
+      }
+    ]
+  },
+  "low": {
+    "throughput": "3.35 transactions per day",
+    "variance": 179655248.4003194,
+    "data": [
+      {
+        "batchSize": 1,
+        "timeToFill": 168.58945613520754
+      },
+      {
+        "batchSize": 2,
+        "timeToFill": 1232.2520973693186
+      },
+      {
+        "batchSize": 3,
+        "timeToFill": 2496.432347194695
+      },
+      {
+        "batchSize": 4,
+        "timeToFill": 1896.46434629787
+      },
+      {
+        "batchSize": 5,
+        "timeToFill": 882.400743304801
+      },
+      {
+        "batchSize": 6,
+        "timeToFill": 2644.1844503355533
+      },
+      {
+        "batchSize": 7,
+        "timeToFill": 4751.37500558945
+      },
+      {
+        "batchSize": 8,
+        "timeToFill": 1843.0064109280204
+      },
+      {
+        "batchSize": 9,
+        "timeToFill": 4820.086417006486
+      },
+      {
+        "batchSize": 10,
+        "timeToFill": 2955.9937325227975
+      },
+      {
+        "batchSize": 11,
+        "timeToFill": 8166.185632749886
+      },
+      {
+        "batchSize": 12,
+        "timeToFill": 3574.4405775286937
+      },
+      {
+        "batchSize": 13,
+        "timeToFill": 4385.834096272513
+      },
+      {
+        "batchSize": 14,
+        "timeToFill": 5570.044289410176
+      },
+      {
+        "batchSize": 15,
+        "timeToFill": 4476.285474065762
+      },
+      {
+        "batchSize": 16,
+        "timeToFill": 3768.221848376508
+      },
+      {
+        "batchSize": 17,
+        "timeToFill": 7865.568692387413
+      },
+      {
+        "batchSize": 18,
+        "timeToFill": 8897.31942818757
+      },
+      {
+        "batchSize": 19,
+        "timeToFill": 6380.40802070665
+      },
+      {
+        "batchSize": 20,
+        "timeToFill": 7101.149020305786
+      },
+      {
+        "batchSize": 21,
+        "timeToFill": 9073.223912703043
+      },
+      {
+        "batchSize": 22,
+        "timeToFill": 10167.986851726131
+      },
+      {
+        "batchSize": 23,
+        "timeToFill": 8647.422882543917
+      },
+      {
+        "batchSize": 24,
+        "timeToFill": 8731.278421355755
+      },
+      {
+        "batchSize": 25,
+        "timeToFill": 9322.131571082411
+      },
+      {
+        "batchSize": 26,
+        "timeToFill": 12098.57988868497
+      },
+      {
+        "batchSize": 27,
+        "timeToFill": 12443.595457110341
+      },
+      {
+        "batchSize": 28,
+        "timeToFill": 10612.052012098282
+      },
+      {
+        "batchSize": 29,
+        "timeToFill": 13256.52915084392
+      },
+      {
+        "batchSize": 30,
+        "timeToFill": 15854.983700938317
+      },
+      {
+        "batchSize": 31,
+        "timeToFill": 16479.404223174693
+      },
+      {
+        "batchSize": 32,
+        "timeToFill": 8544.250636899995
+      },
+      {
+        "batchSize": 33,
+        "timeToFill": 16853.839746884354
+      },
+      {
+        "batchSize": 34,
+        "timeToFill": 13961.315079324262
+      },
+      {
+        "batchSize": 35,
+        "timeToFill": 15617.441910721434
+      },
+      {
+        "batchSize": 36,
+        "timeToFill": 13217.615533180362
+      },
+      {
+        "batchSize": 37,
+        "timeToFill": 15250.973538023041
+      },
+      {
+        "batchSize": 38,
+        "timeToFill": 13961.669331556524
+      },
+      {
+        "batchSize": 39,
+        "timeToFill": 17879.22594963479
+      },
+      {
+        "batchSize": 40,
+        "timeToFill": 18896.11363838049
+      },
+      {
+        "batchSize": 41,
+        "timeToFill": 23063.62616125075
+      },
+      {
+        "batchSize": 42,
+        "timeToFill": 17846.946236880638
+      },
+      {
+        "batchSize": 43,
+        "timeToFill": 19072.92667821275
+      },
+      {
+        "batchSize": 44,
+        "timeToFill": 20011.03349453633
+      },
+      {
+        "batchSize": 45,
+        "timeToFill": 16666.645503543183
+      },
+      {
+        "batchSize": 46,
+        "timeToFill": 22010.044142533763
+      },
+      {
+        "batchSize": 47,
+        "timeToFill": 24233.37142152637
+      },
+      {
+        "batchSize": 48,
+        "timeToFill": 22099.55684641237
+      },
+      {
+        "batchSize": 49,
+        "timeToFill": 23431.48310147168
+      },
+      {
+        "batchSize": 50,
+        "timeToFill": 24643.759970544328
+      },
+      {
+        "batchSize": 51,
+        "timeToFill": 24435.465921824434
+      },
+      {
+        "batchSize": 52,
+        "timeToFill": 28518.562418683272
+      },
+      {
+        "batchSize": 53,
+        "timeToFill": 17747.828438711564
+      },
+      {
+        "batchSize": 54,
+        "timeToFill": 16893.230161691157
+      },
+      {
+        "batchSize": 55,
+        "timeToFill": 27478.688466633215
+      },
+      {
+        "batchSize": 56,
+        "timeToFill": 24198.712887507736
+      },
+      {
+        "batchSize": 57,
+        "timeToFill": 26457.939308402667
+      },
+      {
+        "batchSize": 58,
+        "timeToFill": 32050.050205629374
+      },
+      {
+        "batchSize": 59,
+        "timeToFill": 18586.211942246286
+      },
+      {
+        "batchSize": 60,
+        "timeToFill": 27355.26115694827
+      },
+      {
+        "batchSize": 61,
+        "timeToFill": 27893.211780208338
+      },
+      {
+        "batchSize": 62,
+        "timeToFill": 30292.98670386051
+      },
+      {
+        "batchSize": 63,
+        "timeToFill": 25483.18193609072
+      },
+      {
+        "batchSize": 64,
+        "timeToFill": 26677.442699099196
+      },
+      {
+        "batchSize": 65,
+        "timeToFill": 22056.128588157448
+      },
+      {
+        "batchSize": 66,
+        "timeToFill": 27510.34077433668
+      },
+      {
+        "batchSize": 67,
+        "timeToFill": 19595.088356804907
+      },
+      {
+        "batchSize": 68,
+        "timeToFill": 30843.86375869136
+      },
+      {
+        "batchSize": 69,
+        "timeToFill": 33887.25733531526
+      },
+      {
+        "batchSize": 70,
+        "timeToFill": 29165.1005904952
+      },
+      {
+        "batchSize": 71,
+        "timeToFill": 41947.13924326527
+      },
+      {
+        "batchSize": 72,
+        "timeToFill": 38822.43050624003
+      },
+      {
+        "batchSize": 73,
+        "timeToFill": 30747.122671487727
+      },
+      {
+        "batchSize": 74,
+        "timeToFill": 31566.071004207653
+      },
+      {
+        "batchSize": 75,
+        "timeToFill": 34038.20978468208
+      },
+      {
+        "batchSize": 76,
+        "timeToFill": 29558.529712211133
+      },
+      {
+        "batchSize": 77,
+        "timeToFill": 37506.78075909007
+      },
+      {
+        "batchSize": 78,
+        "timeToFill": 35547.17165690298
+      },
+      {
+        "batchSize": 79,
+        "timeToFill": 39277.96208128959
+      },
+      {
+        "batchSize": 80,
+        "timeToFill": 38333.506743712824
+      },
+      {
+        "batchSize": 81,
+        "timeToFill": 35954.9402197207
+      },
+      {
+        "batchSize": 82,
+        "timeToFill": 39997.3828550228
+      },
+      {
+        "batchSize": 83,
+        "timeToFill": 31500.054048854865
+      },
+      {
+        "batchSize": 84,
+        "timeToFill": 38899.31434485987
+      },
+      {
+        "batchSize": 85,
+        "timeToFill": 34979.957837383736
+      },
+      {
+        "batchSize": 86,
+        "timeToFill": 33617.91857832062
+      },
+      {
+        "batchSize": 87,
+        "timeToFill": 38453.45973994918
+      },
+      {
+        "batchSize": 88,
+        "timeToFill": 34233.55111121538
+      },
+      {
+        "batchSize": 89,
+        "timeToFill": 35303.31927829197
+      },
+      {
+        "batchSize": 90,
+        "timeToFill": 40756.93854591504
+      },
+      {
+        "batchSize": 91,
+        "timeToFill": 41229.41018502446
+      },
+      {
+        "batchSize": 92,
+        "timeToFill": 40778.49488756887
+      },
+      {
+        "batchSize": 93,
+        "timeToFill": 32823.52544983671
+      },
+      {
+        "batchSize": 94,
+        "timeToFill": 44337.62560657976
+      },
+      {
+        "batchSize": 95,
+        "timeToFill": 40744.177863099576
+      },
+      {
+        "batchSize": 96,
+        "timeToFill": 47922.54787126123
+      },
+      {
+        "batchSize": 97,
+        "timeToFill": 40190.37538233689
+      },
+      {
+        "batchSize": 98,
+        "timeToFill": 42525.73468379948
+      },
+      {
+        "batchSize": 99,
+        "timeToFill": 44054.93561427156
+      },
+      {
+        "batchSize": 100,
+        "timeToFill": 55202.78055498649
+      }
+    ]
+  }
+}

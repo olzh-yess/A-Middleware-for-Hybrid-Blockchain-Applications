@@ -1,0 +1,1467 @@
+[
+    {
+        "size": "1",
+        "name": "addPartnerCompany",
+        "transactions": []
+    },
+    {
+        "size": "1",
+        "name": "addWorker",
+        "transactions": []
+    },
+    {
+        "size": "1",
+        "name": "mintTokens",
+        "transactions": []
+    },
+    {
+        "size": "1",
+        "name": "burnTokens",
+        "transactions": []
+    },
+    {
+        "size": "1",
+        "name": "settlePartnerDebt",
+        "transactions": []
+    },
+    {
+        "size": "2",
+        "name": "addPartnerCompany",
+        "batchNonce": 45,
+        "transactions": [
+            {
+                "batchNonce": 45,
+                "positionNonce": 9,
+                "latency": 0.473
+            }
+        ]
+    },
+    {
+        "size": "2",
+        "name": "addWorker",
+        "batchNonce": 46,
+        "transactions": [
+            {
+                "batchNonce": 46,
+                "positionNonce": 0,
+                "latency": 0.171
+            }
+        ]
+    },
+    {
+        "size": "2",
+        "name": "mintTokens",
+        "batchNonce": 47,
+        "transactions": [
+            {
+                "batchNonce": 47,
+                "positionNonce": 0,
+                "latency": 0.246
+            }
+        ]
+    },
+    {
+        "size": "2",
+        "name": "burnTokens",
+        "batchNonce": 48,
+        "transactions": [
+            {
+                "batchNonce": 48,
+                "positionNonce": 0,
+                "latency": 0.205
+            }
+        ]
+    },
+    {
+        "size": "2",
+        "name": "settlePartnerDebt",
+        "batchNonce": 49,
+        "transactions": [
+            {
+                "batchNonce": 49,
+                "positionNonce": 0,
+                "latency": 0.223
+            }
+        ]
+    },
+    {
+        "size": "3",
+        "name": "addPartnerCompany",
+        "batchNonce": 50,
+        "transactions": [
+            {
+                "batchNonce": 50,
+                "positionNonce": 0,
+                "latency": 0.195
+            },
+            {
+                "batchNonce": 50,
+                "positionNonce": 1,
+                "latency": 0.148
+            }
+        ]
+    },
+    {
+        "size": "3",
+        "name": "addWorker",
+        "batchNonce": 51,
+        "transactions": [
+            {
+                "batchNonce": 51,
+                "positionNonce": 0,
+                "latency": 0.149
+            },
+            {
+                "batchNonce": 51,
+                "positionNonce": 1,
+                "latency": 0.13
+            }
+        ]
+    },
+    {
+        "size": "3",
+        "name": "mintTokens",
+        "batchNonce": 52,
+        "transactions": [
+            {
+                "batchNonce": 52,
+                "positionNonce": 0,
+                "latency": 0.171
+            },
+            {
+                "batchNonce": 52,
+                "positionNonce": 1,
+                "latency": 0.182
+            }
+        ]
+    },
+    {
+        "size": "3",
+        "name": "burnTokens",
+        "batchNonce": 53,
+        "transactions": [
+            {
+                "batchNonce": 53,
+                "positionNonce": 0,
+                "latency": 0.149
+            },
+            {
+                "batchNonce": 53,
+                "positionNonce": 1,
+                "latency": 0.118
+            }
+        ]
+    },
+    {
+        "size": "3",
+        "name": "settlePartnerDebt",
+        "batchNonce": 54,
+        "transactions": [
+            {
+                "batchNonce": 54,
+                "positionNonce": 0,
+                "latency": 0.119
+            },
+            {
+                "batchNonce": 54,
+                "positionNonce": 1,
+                "latency": 0.103
+            }
+        ]
+    },
+    {
+        "size": "4",
+        "name": "addPartnerCompany",
+        "batchNonce": 55,
+        "transactions": [
+            {
+                "batchNonce": 55,
+                "positionNonce": 0,
+                "latency": 0.11
+            },
+            {
+                "batchNonce": 55,
+                "positionNonce": 1,
+                "latency": 0.105
+            },
+            {
+                "batchNonce": 55,
+                "positionNonce": 2,
+                "latency": 0.13
+            }
+        ]
+    },
+    {
+        "size": "4",
+        "name": "addWorker",
+        "batchNonce": 56,
+        "transactions": [
+            {
+                "batchNonce": 56,
+                "positionNonce": 0,
+                "latency": 0.108
+            },
+            {
+                "batchNonce": 56,
+                "positionNonce": 1,
+                "latency": 0.084
+            },
+            {
+                "batchNonce": 56,
+                "positionNonce": 2,
+                "latency": 0.102
+            }
+        ]
+    },
+    {
+        "size": "4",
+        "name": "mintTokens",
+        "batchNonce": 57,
+        "transactions": [
+            {
+                "batchNonce": 57,
+                "positionNonce": 0,
+                "latency": 0.126
+            },
+            {
+                "batchNonce": 57,
+                "positionNonce": 1,
+                "latency": 0.105
+            },
+            {
+                "batchNonce": 57,
+                "positionNonce": 2,
+                "latency": 0.099
+            }
+        ]
+    },
+    {
+        "size": "4",
+        "name": "burnTokens",
+        "batchNonce": 58,
+        "transactions": [
+            {
+                "batchNonce": 58,
+                "positionNonce": 0,
+                "latency": 0.138
+            },
+            {
+                "batchNonce": 58,
+                "positionNonce": 1,
+                "latency": 0.165
+            },
+            {
+                "batchNonce": 58,
+                "positionNonce": 2,
+                "latency": 0.12
+            }
+        ]
+    },
+    {
+        "size": "4",
+        "name": "settlePartnerDebt",
+        "batchNonce": 59,
+        "transactions": [
+            {
+                "batchNonce": 59,
+                "positionNonce": 0,
+                "latency": 0.089
+            },
+            {
+                "batchNonce": 59,
+                "positionNonce": 1,
+                "latency": 0.101
+            },
+            {
+                "batchNonce": 59,
+                "positionNonce": 2,
+                "latency": 0.104
+            }
+        ]
+    },
+    {
+        "size": "5",
+        "name": "addPartnerCompany",
+        "batchNonce": 60,
+        "transactions": [
+            {
+                "batchNonce": 60,
+                "positionNonce": 0,
+                "latency": 0.119
+            },
+            {
+                "batchNonce": 60,
+                "positionNonce": 1,
+                "latency": 0.125
+            },
+            {
+                "batchNonce": 60,
+                "positionNonce": 2,
+                "latency": 0.112
+            },
+            {
+                "batchNonce": 60,
+                "positionNonce": 3,
+                "latency": 0.102
+            }
+        ]
+    },
+    {
+        "size": "5",
+        "name": "addWorker",
+        "batchNonce": 61,
+        "transactions": [
+            {
+                "batchNonce": 61,
+                "positionNonce": 0,
+                "latency": 0.114
+            },
+            {
+                "batchNonce": 61,
+                "positionNonce": 1,
+                "latency": 0.248
+            },
+            {
+                "batchNonce": 61,
+                "positionNonce": 2,
+                "latency": 0.118
+            },
+            {
+                "batchNonce": 61,
+                "positionNonce": 3,
+                "latency": 0.116
+            }
+        ]
+    },
+    {
+        "size": "5",
+        "name": "mintTokens",
+        "batchNonce": 62,
+        "transactions": [
+            {
+                "batchNonce": 62,
+                "positionNonce": 0,
+                "latency": 0.127
+            },
+            {
+                "batchNonce": 62,
+                "positionNonce": 1,
+                "latency": 0.106
+            },
+            {
+                "batchNonce": 62,
+                "positionNonce": 2,
+                "latency": 0.106
+            },
+            {
+                "batchNonce": 62,
+                "positionNonce": 3,
+                "latency": 0.095
+            }
+        ]
+    },
+    {
+        "size": "5",
+        "name": "burnTokens",
+        "batchNonce": 63,
+        "transactions": [
+            {
+                "batchNonce": 63,
+                "positionNonce": 0,
+                "latency": 0.14
+            },
+            {
+                "batchNonce": 63,
+                "positionNonce": 1,
+                "latency": 0.141
+            },
+            {
+                "batchNonce": 63,
+                "positionNonce": 2,
+                "latency": 0.129
+            },
+            {
+                "batchNonce": 63,
+                "positionNonce": 3,
+                "latency": 0.11
+            }
+        ]
+    },
+    {
+        "size": "5",
+        "name": "settlePartnerDebt",
+        "batchNonce": 64,
+        "transactions": [
+            {
+                "batchNonce": 64,
+                "positionNonce": 0,
+                "latency": 0.104
+            },
+            {
+                "batchNonce": 64,
+                "positionNonce": 1,
+                "latency": 0.093
+            },
+            {
+                "batchNonce": 64,
+                "positionNonce": 2,
+                "latency": 0.087
+            },
+            {
+                "batchNonce": 64,
+                "positionNonce": 3,
+                "latency": 0.164
+            }
+        ]
+    },
+    {
+        "size": "6",
+        "name": "addPartnerCompany",
+        "batchNonce": 65,
+        "transactions": [
+            {
+                "batchNonce": 65,
+                "positionNonce": 0,
+                "latency": 0.114
+            },
+            {
+                "batchNonce": 65,
+                "positionNonce": 1,
+                "latency": 0.098
+            },
+            {
+                "batchNonce": 65,
+                "positionNonce": 2,
+                "latency": 0.108
+            },
+            {
+                "batchNonce": 65,
+                "positionNonce": 3,
+                "latency": 0.109
+            },
+            {
+                "batchNonce": 65,
+                "positionNonce": 4,
+                "latency": 0.11
+            }
+        ]
+    },
+    {
+        "size": "6",
+        "name": "addWorker",
+        "batchNonce": 66,
+        "transactions": [
+            {
+                "batchNonce": 66,
+                "positionNonce": 0,
+                "latency": 0.098
+            },
+            {
+                "batchNonce": 66,
+                "positionNonce": 1,
+                "latency": 0.087
+            },
+            {
+                "batchNonce": 66,
+                "positionNonce": 2,
+                "latency": 0.086
+            },
+            {
+                "batchNonce": 66,
+                "positionNonce": 3,
+                "latency": 0.093
+            },
+            {
+                "batchNonce": 66,
+                "positionNonce": 4,
+                "latency": 0.098
+            }
+        ]
+    },
+    {
+        "size": "6",
+        "name": "mintTokens",
+        "batchNonce": 67,
+        "transactions": [
+            {
+                "batchNonce": 67,
+                "positionNonce": 0,
+                "latency": 0.1
+            },
+            {
+                "batchNonce": 67,
+                "positionNonce": 1,
+                "latency": 0.1
+            },
+            {
+                "batchNonce": 67,
+                "positionNonce": 2,
+                "latency": 0.101
+            },
+            {
+                "batchNonce": 67,
+                "positionNonce": 3,
+                "latency": 0.099
+            },
+            {
+                "batchNonce": 67,
+                "positionNonce": 4,
+                "latency": 0.101
+            }
+        ]
+    },
+    {
+        "size": "6",
+        "name": "burnTokens",
+        "batchNonce": 68,
+        "transactions": [
+            {
+                "batchNonce": 68,
+                "positionNonce": 0,
+                "latency": 0.114
+            },
+            {
+                "batchNonce": 68,
+                "positionNonce": 1,
+                "latency": 0.106
+            },
+            {
+                "batchNonce": 68,
+                "positionNonce": 2,
+                "latency": 0.109
+            },
+            {
+                "batchNonce": 68,
+                "positionNonce": 3,
+                "latency": 0.106
+            },
+            {
+                "batchNonce": 68,
+                "positionNonce": 4,
+                "latency": 0.101
+            }
+        ]
+    },
+    {
+        "size": "6",
+        "name": "settlePartnerDebt",
+        "batchNonce": 69,
+        "transactions": [
+            {
+                "batchNonce": 69,
+                "positionNonce": 0,
+                "latency": 0.097
+            },
+            {
+                "batchNonce": 69,
+                "positionNonce": 1,
+                "latency": 0.085
+            },
+            {
+                "batchNonce": 69,
+                "positionNonce": 2,
+                "latency": 0.088
+            },
+            {
+                "batchNonce": 69,
+                "positionNonce": 3,
+                "latency": 0.091
+            },
+            {
+                "batchNonce": 69,
+                "positionNonce": 4,
+                "latency": 0.104
+            }
+        ]
+    },
+    {
+        "size": "7",
+        "name": "addPartnerCompany",
+        "batchNonce": 70,
+        "transactions": [
+            {
+                "batchNonce": 70,
+                "positionNonce": 0,
+                "latency": 0.139
+            },
+            {
+                "batchNonce": 70,
+                "positionNonce": 1,
+                "latency": 0.099
+            },
+            {
+                "batchNonce": 70,
+                "positionNonce": 2,
+                "latency": 0.106
+            },
+            {
+                "batchNonce": 70,
+                "positionNonce": 3,
+                "latency": 0.102
+            },
+            {
+                "batchNonce": 70,
+                "positionNonce": 4,
+                "latency": 0.093
+            },
+            {
+                "batchNonce": 70,
+                "positionNonce": 5,
+                "latency": 0.091
+            }
+        ]
+    },
+    {
+        "size": "7",
+        "name": "addWorker",
+        "batchNonce": 71,
+        "transactions": [
+            {
+                "batchNonce": 71,
+                "positionNonce": 0,
+                "latency": 0.105
+            },
+            {
+                "batchNonce": 71,
+                "positionNonce": 1,
+                "latency": 0.082
+            },
+            {
+                "batchNonce": 71,
+                "positionNonce": 2,
+                "latency": 0.08
+            },
+            {
+                "batchNonce": 71,
+                "positionNonce": 3,
+                "latency": 0.082
+            },
+            {
+                "batchNonce": 71,
+                "positionNonce": 4,
+                "latency": 0.103
+            },
+            {
+                "batchNonce": 71,
+                "positionNonce": 5,
+                "latency": 0.097
+            }
+        ]
+    },
+    {
+        "size": "7",
+        "name": "mintTokens",
+        "batchNonce": 72,
+        "transactions": [
+            {
+                "batchNonce": 72,
+                "positionNonce": 0,
+                "latency": 0.221
+            },
+            {
+                "batchNonce": 72,
+                "positionNonce": 1,
+                "latency": 0.1
+            },
+            {
+                "batchNonce": 72,
+                "positionNonce": 2,
+                "latency": 0.117
+            },
+            {
+                "batchNonce": 72,
+                "positionNonce": 3,
+                "latency": 0.099
+            },
+            {
+                "batchNonce": 72,
+                "positionNonce": 4,
+                "latency": 0.109
+            },
+            {
+                "batchNonce": 72,
+                "positionNonce": 5,
+                "latency": 0.092
+            }
+        ]
+    },
+    {
+        "size": "7",
+        "name": "burnTokens",
+        "batchNonce": 73,
+        "transactions": [
+            {
+                "batchNonce": 73,
+                "positionNonce": 0,
+                "latency": 0.128
+            },
+            {
+                "batchNonce": 73,
+                "positionNonce": 1,
+                "latency": 0.104
+            },
+            {
+                "batchNonce": 73,
+                "positionNonce": 2,
+                "latency": 0.104
+            },
+            {
+                "batchNonce": 73,
+                "positionNonce": 3,
+                "latency": 0.123
+            },
+            {
+                "batchNonce": 73,
+                "positionNonce": 4,
+                "latency": 0.111
+            },
+            {
+                "batchNonce": 73,
+                "positionNonce": 5,
+                "latency": 0.112
+            }
+        ]
+    },
+    {
+        "size": "7",
+        "name": "settlePartnerDebt",
+        "batchNonce": 74,
+        "transactions": [
+            {
+                "batchNonce": 74,
+                "positionNonce": 0,
+                "latency": 0.098
+            },
+            {
+                "batchNonce": 74,
+                "positionNonce": 1,
+                "latency": 0.099
+            },
+            {
+                "batchNonce": 74,
+                "positionNonce": 2,
+                "latency": 0.078
+            },
+            {
+                "batchNonce": 74,
+                "positionNonce": 3,
+                "latency": 0.199
+            },
+            {
+                "batchNonce": 74,
+                "positionNonce": 4,
+                "latency": 0.096
+            },
+            {
+                "batchNonce": 74,
+                "positionNonce": 5,
+                "latency": 0.079
+            }
+        ]
+    },
+    {
+        "size": "8",
+        "name": "addPartnerCompany",
+        "batchNonce": 75,
+        "transactions": [
+            {
+                "batchNonce": 75,
+                "positionNonce": 0,
+                "latency": 0.107
+            },
+            {
+                "batchNonce": 75,
+                "positionNonce": 1,
+                "latency": 0.106
+            },
+            {
+                "batchNonce": 75,
+                "positionNonce": 2,
+                "latency": 0.094
+            },
+            {
+                "batchNonce": 75,
+                "positionNonce": 3,
+                "latency": 0.112
+            },
+            {
+                "batchNonce": 75,
+                "positionNonce": 4,
+                "latency": 0.111
+            },
+            {
+                "batchNonce": 75,
+                "positionNonce": 5,
+                "latency": 0.108
+            },
+            {
+                "batchNonce": 75,
+                "positionNonce": 6,
+                "latency": 0.106
+            }
+        ]
+    },
+    {
+        "size": "8",
+        "name": "addWorker",
+        "batchNonce": 76,
+        "transactions": [
+            {
+                "batchNonce": 76,
+                "positionNonce": 0,
+                "latency": 0.104
+            },
+            {
+                "batchNonce": 76,
+                "positionNonce": 1,
+                "latency": 0.348
+            },
+            {
+                "batchNonce": 76,
+                "positionNonce": 2,
+                "latency": 0.235
+            },
+            {
+                "batchNonce": 76,
+                "positionNonce": 3,
+                "latency": 0.144
+            },
+            {
+                "batchNonce": 76,
+                "positionNonce": 4,
+                "latency": 0.123
+            },
+            {
+                "batchNonce": 76,
+                "positionNonce": 5,
+                "latency": 0.108
+            },
+            {
+                "batchNonce": 76,
+                "positionNonce": 6,
+                "latency": 0.105
+            }
+        ]
+    },
+    {
+        "size": "8",
+        "name": "mintTokens",
+        "batchNonce": 77,
+        "transactions": [
+            {
+                "batchNonce": 77,
+                "positionNonce": 0,
+                "latency": 0.132
+            },
+            {
+                "batchNonce": 77,
+                "positionNonce": 1,
+                "latency": 0.104
+            },
+            {
+                "batchNonce": 77,
+                "positionNonce": 2,
+                "latency": 0.109
+            },
+            {
+                "batchNonce": 77,
+                "positionNonce": 3,
+                "latency": 0.121
+            },
+            {
+                "batchNonce": 77,
+                "positionNonce": 4,
+                "latency": 0.119
+            },
+            {
+                "batchNonce": 77,
+                "positionNonce": 5,
+                "latency": 0.107
+            },
+            {
+                "batchNonce": 77,
+                "positionNonce": 6,
+                "latency": 0.105
+            }
+        ]
+    },
+    {
+        "size": "8",
+        "name": "burnTokens",
+        "batchNonce": 78,
+        "transactions": [
+            {
+                "batchNonce": 78,
+                "positionNonce": 0,
+                "latency": 0.131
+            },
+            {
+                "batchNonce": 78,
+                "positionNonce": 1,
+                "latency": 0.123
+            },
+            {
+                "batchNonce": 78,
+                "positionNonce": 2,
+                "latency": 0.113
+            },
+            {
+                "batchNonce": 78,
+                "positionNonce": 3,
+                "latency": 0.113
+            },
+            {
+                "batchNonce": 78,
+                "positionNonce": 4,
+                "latency": 0.125
+            },
+            {
+                "batchNonce": 78,
+                "positionNonce": 5,
+                "latency": 0.126
+            },
+            {
+                "batchNonce": 78,
+                "positionNonce": 6,
+                "latency": 0.11
+            }
+        ]
+    },
+    {
+        "size": "8",
+        "name": "settlePartnerDebt",
+        "batchNonce": 79,
+        "transactions": [
+            {
+                "batchNonce": 79,
+                "positionNonce": 0,
+                "latency": 0.096
+            },
+            {
+                "batchNonce": 79,
+                "positionNonce": 1,
+                "latency": 0.093
+            },
+            {
+                "batchNonce": 79,
+                "positionNonce": 2,
+                "latency": 0.092
+            },
+            {
+                "batchNonce": 79,
+                "positionNonce": 3,
+                "latency": 0.091
+            },
+            {
+                "batchNonce": 79,
+                "positionNonce": 4,
+                "latency": 0.099
+            },
+            {
+                "batchNonce": 79,
+                "positionNonce": 5,
+                "latency": 0.097
+            },
+            {
+                "batchNonce": 79,
+                "positionNonce": 6,
+                "latency": 0.108
+            }
+        ]
+    },
+    {
+        "size": "9",
+        "name": "addPartnerCompany",
+        "batchNonce": 80,
+        "transactions": [
+            {
+                "batchNonce": 80,
+                "positionNonce": 0,
+                "latency": 0.106
+            },
+            {
+                "batchNonce": 80,
+                "positionNonce": 1,
+                "latency": 0.096
+            },
+            {
+                "batchNonce": 80,
+                "positionNonce": 2,
+                "latency": 0.098
+            },
+            {
+                "batchNonce": 80,
+                "positionNonce": 3,
+                "latency": 0.104
+            },
+            {
+                "batchNonce": 80,
+                "positionNonce": 4,
+                "latency": 0.105
+            },
+            {
+                "batchNonce": 80,
+                "positionNonce": 5,
+                "latency": 0.112
+            },
+            {
+                "batchNonce": 80,
+                "positionNonce": 6,
+                "latency": 0.104
+            },
+            {
+                "batchNonce": 80,
+                "positionNonce": 7,
+                "latency": 0.104
+            }
+        ]
+    },
+    {
+        "size": "9",
+        "name": "addWorker",
+        "batchNonce": 81,
+        "transactions": [
+            {
+                "batchNonce": 81,
+                "positionNonce": 0,
+                "latency": 0.109
+            },
+            {
+                "batchNonce": 81,
+                "positionNonce": 1,
+                "latency": 0.089
+            },
+            {
+                "batchNonce": 81,
+                "positionNonce": 2,
+                "latency": 0.091
+            },
+            {
+                "batchNonce": 81,
+                "positionNonce": 3,
+                "latency": 0.088
+            },
+            {
+                "batchNonce": 81,
+                "positionNonce": 4,
+                "latency": 0.098
+            },
+            {
+                "batchNonce": 81,
+                "positionNonce": 5,
+                "latency": 0.095
+            },
+            {
+                "batchNonce": 81,
+                "positionNonce": 6,
+                "latency": 0.112
+            },
+            {
+                "batchNonce": 81,
+                "positionNonce": 7,
+                "latency": 0.101
+            }
+        ]
+    },
+    {
+        "size": "9",
+        "name": "mintTokens",
+        "batchNonce": 82,
+        "transactions": [
+            {
+                "batchNonce": 82,
+                "positionNonce": 0,
+                "latency": 0.144
+            },
+            {
+                "batchNonce": 82,
+                "positionNonce": 1,
+                "latency": 0.115
+            },
+            {
+                "batchNonce": 82,
+                "positionNonce": 2,
+                "latency": 0.112
+            },
+            {
+                "batchNonce": 82,
+                "positionNonce": 3,
+                "latency": 0.11
+            },
+            {
+                "batchNonce": 82,
+                "positionNonce": 4,
+                "latency": 0.107
+            },
+            {
+                "batchNonce": 82,
+                "positionNonce": 5,
+                "latency": 0.116
+            },
+            {
+                "batchNonce": 82,
+                "positionNonce": 6,
+                "latency": 0.112
+            },
+            {
+                "batchNonce": 82,
+                "positionNonce": 7,
+                "latency": 0.201
+            }
+        ]
+    },
+    {
+        "size": "9",
+        "name": "burnTokens",
+        "batchNonce": 83,
+        "transactions": [
+            {
+                "batchNonce": 83,
+                "positionNonce": 0,
+                "latency": 0.268
+            },
+            {
+                "batchNonce": 83,
+                "positionNonce": 1,
+                "latency": 0.178
+            },
+            {
+                "batchNonce": 83,
+                "positionNonce": 2,
+                "latency": 0.116
+            },
+            {
+                "batchNonce": 83,
+                "positionNonce": 3,
+                "latency": 0.093
+            },
+            {
+                "batchNonce": 83,
+                "positionNonce": 4,
+                "latency": 0.114
+            },
+            {
+                "batchNonce": 83,
+                "positionNonce": 5,
+                "latency": 0.123
+            },
+            {
+                "batchNonce": 83,
+                "positionNonce": 6,
+                "latency": 0.118
+            },
+            {
+                "batchNonce": 83,
+                "positionNonce": 7,
+                "latency": 0.104
+            }
+        ]
+    },
+    {
+        "size": "9",
+        "name": "settlePartnerDebt",
+        "batchNonce": 84,
+        "transactions": [
+            {
+                "batchNonce": 84,
+                "positionNonce": 0,
+                "latency": 0.106
+            },
+            {
+                "batchNonce": 84,
+                "positionNonce": 1,
+                "latency": 0.092
+            },
+            {
+                "batchNonce": 84,
+                "positionNonce": 2,
+                "latency": 0.102
+            },
+            {
+                "batchNonce": 84,
+                "positionNonce": 3,
+                "latency": 0.1
+            },
+            {
+                "batchNonce": 84,
+                "positionNonce": 4,
+                "latency": 0.094
+            },
+            {
+                "batchNonce": 84,
+                "positionNonce": 5,
+                "latency": 0.097
+            },
+            {
+                "batchNonce": 84,
+                "positionNonce": 6,
+                "latency": 0.111
+            },
+            {
+                "batchNonce": 84,
+                "positionNonce": 7,
+                "latency": 0.127
+            }
+        ]
+    },
+    {
+        "size": "10",
+        "name": "addPartnerCompany",
+        "batchNonce": 85,
+        "transactions": [
+            {
+                "batchNonce": 85,
+                "positionNonce": 0,
+                "latency": 0.109
+            },
+            {
+                "batchNonce": 85,
+                "positionNonce": 1,
+                "latency": 0.091
+            },
+            {
+                "batchNonce": 85,
+                "positionNonce": 2,
+                "latency": 0.12
+            },
+            {
+                "batchNonce": 85,
+                "positionNonce": 3,
+                "latency": 0.106
+            },
+            {
+                "batchNonce": 85,
+                "positionNonce": 4,
+                "latency": 0.109
+            },
+            {
+                "batchNonce": 85,
+                "positionNonce": 5,
+                "latency": 0.109
+            },
+            {
+                "batchNonce": 85,
+                "positionNonce": 6,
+                "latency": 0.107
+            },
+            {
+                "batchNonce": 85,
+                "positionNonce": 7,
+                "latency": 0.112
+            },
+            {
+                "batchNonce": 85,
+                "positionNonce": 8,
+                "latency": 0.098
+            }
+        ]
+    },
+    {
+        "size": "10",
+        "name": "addWorker",
+        "batchNonce": 86,
+        "transactions": [
+            {
+                "batchNonce": 86,
+                "positionNonce": 0,
+                "latency": 0.105
+            },
+            {
+                "batchNonce": 86,
+                "positionNonce": 1,
+                "latency": 0.096
+            },
+            {
+                "batchNonce": 86,
+                "positionNonce": 2,
+                "latency": 0.107
+            },
+            {
+                "batchNonce": 86,
+                "positionNonce": 3,
+                "latency": 0.108
+            },
+            {
+                "batchNonce": 86,
+                "positionNonce": 4,
+                "latency": 0.088
+            },
+            {
+                "batchNonce": 86,
+                "positionNonce": 5,
+                "latency": 0.094
+            },
+            {
+                "batchNonce": 86,
+                "positionNonce": 6,
+                "latency": 0.095
+            },
+            {
+                "batchNonce": 86,
+                "positionNonce": 7,
+                "latency": 0.089
+            },
+            {
+                "batchNonce": 86,
+                "positionNonce": 8,
+                "latency": 0.089
+            }
+        ]
+    },
+    {
+        "size": "10",
+        "name": "mintTokens",
+        "batchNonce": 87,
+        "transactions": [
+            {
+                "batchNonce": 87,
+                "positionNonce": 0,
+                "latency": 0.117
+            },
+            {
+                "batchNonce": 87,
+                "positionNonce": 1,
+                "latency": 0.098
+            },
+            {
+                "batchNonce": 87,
+                "positionNonce": 2,
+                "latency": 0.105
+            },
+            {
+                "batchNonce": 87,
+                "positionNonce": 3,
+                "latency": 0.122
+            },
+            {
+                "batchNonce": 87,
+                "positionNonce": 4,
+                "latency": 0.113
+            },
+            {
+                "batchNonce": 87,
+                "positionNonce": 5,
+                "latency": 0.105
+            },
+            {
+                "batchNonce": 87,
+                "positionNonce": 6,
+                "latency": 0.119
+            },
+            {
+                "batchNonce": 87,
+                "positionNonce": 7,
+                "latency": 0.115
+            },
+            {
+                "batchNonce": 87,
+                "positionNonce": 8,
+                "latency": 0.105
+            }
+        ]
+    },
+    {
+        "size": "10",
+        "name": "burnTokens",
+        "batchNonce": 88,
+        "transactions": [
+            {
+                "batchNonce": 88,
+                "positionNonce": 0,
+                "latency": 0.151
+            },
+            {
+                "batchNonce": 88,
+                "positionNonce": 1,
+                "latency": 0.106
+            },
+            {
+                "batchNonce": 88,
+                "positionNonce": 2,
+                "latency": 0.103
+            },
+            {
+                "batchNonce": 88,
+                "positionNonce": 3,
+                "latency": 0.119
+            },
+            {
+                "batchNonce": 88,
+                "positionNonce": 4,
+                "latency": 0.114
+            },
+            {
+                "batchNonce": 88,
+                "positionNonce": 5,
+                "latency": 0.109
+            },
+            {
+                "batchNonce": 88,
+                "positionNonce": 6,
+                "latency": 0.108
+            },
+            {
+                "batchNonce": 88,
+                "positionNonce": 7,
+                "latency": 0.111
+            },
+            {
+                "batchNonce": 88,
+                "positionNonce": 8,
+                "latency": 0.124
+            }
+        ]
+    },
+    {
+        "size": "10",
+        "name": "settlePartnerDebt",
+        "batchNonce": 89,
+        "transactions": [
+            {
+                "batchNonce": 89,
+                "positionNonce": 0,
+                "latency": 0.116
+            },
+            {
+                "batchNonce": 89,
+                "positionNonce": 1,
+                "latency": 0.093
+            },
+            {
+                "batchNonce": 89,
+                "positionNonce": 2,
+                "latency": 0.094
+            },
+            {
+                "batchNonce": 89,
+                "positionNonce": 3,
+                "latency": 0.1
+            },
+            {
+                "batchNonce": 89,
+                "positionNonce": 4,
+                "latency": 0.096
+            },
+            {
+                "batchNonce": 89,
+                "positionNonce": 5,
+                "latency": 0.095
+            },
+            {
+                "batchNonce": 89,
+                "positionNonce": 6,
+                "latency": 0.092
+            },
+            {
+                "batchNonce": 89,
+                "positionNonce": 7,
+                "latency": 0.093
+            },
+            {
+                "batchNonce": 89,
+                "positionNonce": 8,
+                "latency": 0.094
+            }
+        ]
+    }
+]

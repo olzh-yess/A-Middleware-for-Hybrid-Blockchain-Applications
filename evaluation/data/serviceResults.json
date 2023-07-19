@@ -1,0 +1,1557 @@
+[
+    {
+        "size": "1",
+        "name": "addPartnerCompany",
+        "transactions": []
+    },
+    {
+        "size": "1",
+        "name": "addWorker",
+        "transactions": []
+    },
+    {
+        "size": "1",
+        "name": "mintTokens",
+        "transactions": []
+    },
+    {
+        "size": "1",
+        "name": "burnTokens",
+        "transactions": []
+    },
+    {
+        "size": "1",
+        "name": "settlePartnerDebt",
+        "transactions": []
+    },
+    {
+        "size": "2",
+        "name": "addPartnerCompany",
+        "batchNonce": 1,
+        "transactions": [
+            {
+                "batchNonce": 1,
+                "positionNonce": 0,
+                "latency": 0.198
+            }
+        ],
+        "gasCost": "89821",
+        "sepoliaTxHash": "0xca8fb33fc4d2270b980afa8b99d32b2da7bf5214e97c6ddaacd0fd7f3f1a4fe8"
+    },
+    {
+        "size": "2",
+        "name": "addWorker",
+        "batchNonce": 2,
+        "transactions": [
+            {
+                "batchNonce": 2,
+                "positionNonce": 0,
+                "latency": 0.125
+            }
+        ],
+        "gasCost": "88438",
+        "sepoliaTxHash": "0xe2b2a3dd8a5afd1aefd6aae8e7418eb289f902ffd483363b142124eed80d4742"
+    },
+    {
+        "size": "2",
+        "name": "mintTokens",
+        "batchNonce": 3,
+        "transactions": [
+            {
+                "batchNonce": 3,
+                "positionNonce": 0,
+                "latency": 0.125
+            }
+        ],
+        "gasCost": "113373",
+        "sepoliaTxHash": "0xee0aeefe6e4b1db0f013f09f2180676dcdb0b3d593e86333ceb9560f4adb7293"
+    },
+    {
+        "size": "2",
+        "name": "burnTokens",
+        "batchNonce": 4,
+        "transactions": [
+            {
+                "batchNonce": 4,
+                "positionNonce": 0,
+                "latency": 0.127
+            }
+        ],
+        "gasCost": "103866",
+        "sepoliaTxHash": "0x418e16174ca5fd1b9e2bdc1ebff6f38b8ff78babaf681b1053412f2e2de37e77"
+    },
+    {
+        "size": "2",
+        "name": "settlePartnerDebt",
+        "batchNonce": 5,
+        "transactions": [
+            {
+                "batchNonce": 5,
+                "positionNonce": 0,
+                "latency": 0.11
+            }
+        ],
+        "gasCost": "68685",
+        "sepoliaTxHash": "0x0c1ca625206db28e53f9f3978e49da29ac2e9db00906e3fa59a3dab1a43f9488"
+    },
+    {
+        "size": "3",
+        "name": "addPartnerCompany",
+        "batchNonce": 6,
+        "transactions": [
+            {
+                "batchNonce": 6,
+                "positionNonce": 0,
+                "latency": 0.115
+            },
+            {
+                "batchNonce": 6,
+                "positionNonce": 1,
+                "latency": 0.11
+            }
+        ],
+        "gasCost": "125083",
+        "sepoliaTxHash": "0x4078cc452b864e4cffb5567ad08f4da0c9b4909b4641e0b10408122cfe886c65"
+    },
+    {
+        "size": "3",
+        "name": "addWorker",
+        "batchNonce": 7,
+        "transactions": [
+            {
+                "batchNonce": 7,
+                "positionNonce": 0,
+                "latency": 0.098
+            },
+            {
+                "batchNonce": 7,
+                "positionNonce": 1,
+                "latency": 0.09
+            }
+        ],
+        "gasCost": "122281",
+        "sepoliaTxHash": "0xb54a2b5f22ae75e489fd0c4d98a8f5e610257a705375d99b337bc72981f97f14"
+    },
+    {
+        "size": "3",
+        "name": "mintTokens",
+        "batchNonce": 8,
+        "transactions": [
+            {
+                "batchNonce": 8,
+                "positionNonce": 0,
+                "latency": 0.107
+            },
+            {
+                "batchNonce": 8,
+                "positionNonce": 1,
+                "latency": 0.092
+            }
+        ],
+        "gasCost": "135162",
+        "sepoliaTxHash": "0x606a0f369e48ba9281a64b09c02facad1c769357b5fbb518e9f525d13a86e840"
+    },
+    {
+        "size": "3",
+        "name": "burnTokens",
+        "batchNonce": 9,
+        "transactions": [
+            {
+                "batchNonce": 9,
+                "positionNonce": 0,
+                "latency": 0.111
+            },
+            {
+                "batchNonce": 9,
+                "positionNonce": 1,
+                "latency": 0.116
+            }
+        ],
+        "gasCost": "150360",
+        "sepoliaTxHash": "0x6b99f96018ec0b6c3ce46612f3926263c48221259365c30d13ecc16b0612bb9b"
+    },
+    {
+        "size": "3",
+        "name": "settlePartnerDebt",
+        "batchNonce": 10,
+        "transactions": [
+            {
+                "batchNonce": 10,
+                "positionNonce": 0,
+                "latency": 0.1
+            },
+            {
+                "batchNonce": 10,
+                "positionNonce": 1,
+                "latency": 0.087
+            }
+        ],
+        "gasCost": "82787",
+        "sepoliaTxHash": "0x28df9f28669929153ad7571de3201ccb85f1e017b1ac83b08a4d2ccecc74b144"
+    },
+    {
+        "size": "4",
+        "name": "addPartnerCompany",
+        "batchNonce": 11,
+        "transactions": [
+            {
+                "batchNonce": 11,
+                "positionNonce": 0,
+                "latency": 0.095
+            },
+            {
+                "batchNonce": 11,
+                "positionNonce": 1,
+                "latency": 0.112
+            },
+            {
+                "batchNonce": 11,
+                "positionNonce": 2,
+                "latency": 0.099
+            }
+        ],
+        "gasCost": "160356",
+        "sepoliaTxHash": "0x7b12d859f741a041e369e590e16dec2d3b3f24080a37c95dcb58220c16ef4a35"
+    },
+    {
+        "size": "4",
+        "name": "addWorker",
+        "batchNonce": 12,
+        "transactions": [
+            {
+                "batchNonce": 12,
+                "positionNonce": 0,
+                "latency": 0.102
+            },
+            {
+                "batchNonce": 12,
+                "positionNonce": 1,
+                "latency": 0.092
+            },
+            {
+                "batchNonce": 12,
+                "positionNonce": 2,
+                "latency": 0.082
+            }
+        ],
+        "gasCost": "156183",
+        "sepoliaTxHash": "0xa0e214caff7921277ca5fb245ecbd1534bbc962e92cce7e8dfefa1df4ac4294b"
+    },
+    {
+        "size": "4",
+        "name": "mintTokens",
+        "batchNonce": 13,
+        "transactions": [
+            {
+                "batchNonce": 13,
+                "positionNonce": 0,
+                "latency": 0.1
+            },
+            {
+                "batchNonce": 13,
+                "positionNonce": 1,
+                "latency": 0.092
+            },
+            {
+                "batchNonce": 13,
+                "positionNonce": 2,
+                "latency": 0.096
+            }
+        ],
+        "gasCost": "174105",
+        "sepoliaTxHash": "0xb00d79b8d459dc485d3d8e7a11d8cfe9afaf14aeabe37e51c4ef9c7c420ad79c"
+    },
+    {
+        "size": "4",
+        "name": "burnTokens",
+        "batchNonce": 14,
+        "transactions": [
+            {
+                "batchNonce": 14,
+                "positionNonce": 0,
+                "latency": 0.106
+            },
+            {
+                "batchNonce": 14,
+                "positionNonce": 1,
+                "latency": 0.107
+            },
+            {
+                "batchNonce": 14,
+                "positionNonce": 2,
+                "latency": 0.102
+            }
+        ],
+        "gasCost": "196860",
+        "sepoliaTxHash": "0xe69c1691523f72466253597d7c5e2cb53509c356a986915005278731bdb33535"
+    },
+    {
+        "size": "4",
+        "name": "settlePartnerDebt",
+        "batchNonce": 15,
+        "transactions": [
+            {
+                "batchNonce": 15,
+                "positionNonce": 0,
+                "latency": 0.089
+            },
+            {
+                "batchNonce": 15,
+                "positionNonce": 1,
+                "latency": 0.089
+            },
+            {
+                "batchNonce": 15,
+                "positionNonce": 2,
+                "latency": 0.1
+            }
+        ],
+        "gasCost": "96941",
+        "sepoliaTxHash": "0x2f5c416d400b8ad8292eca3bc8333dcc3d639351bba71a693aebb713adf4cf7f"
+    },
+    {
+        "size": "5",
+        "name": "addPartnerCompany",
+        "batchNonce": 16,
+        "transactions": [
+            {
+                "batchNonce": 16,
+                "positionNonce": 0,
+                "latency": 0.101
+            },
+            {
+                "batchNonce": 16,
+                "positionNonce": 1,
+                "latency": 0.09
+            },
+            {
+                "batchNonce": 16,
+                "positionNonce": 2,
+                "latency": 0.094
+            },
+            {
+                "batchNonce": 16,
+                "positionNonce": 3,
+                "latency": 0.095
+            }
+        ],
+        "gasCost": "195642",
+        "sepoliaTxHash": "0x0687beb432f082f27953266b09b892ffe8a9e78c134422dd90b58b5d4b9cbad6"
+    },
+    {
+        "size": "5",
+        "name": "addWorker",
+        "batchNonce": 17,
+        "transactions": [
+            {
+                "batchNonce": 17,
+                "positionNonce": 0,
+                "latency": 0.085
+            },
+            {
+                "batchNonce": 17,
+                "positionNonce": 1,
+                "latency": 0.076
+            },
+            {
+                "batchNonce": 17,
+                "positionNonce": 2,
+                "latency": 0.081
+            },
+            {
+                "batchNonce": 17,
+                "positionNonce": 3,
+                "latency": 0.087
+            }
+        ],
+        "gasCost": "190028",
+        "sepoliaTxHash": "0xbbe6995679476d07a69100f712e53d7f789ef5f349a1fba0ae1a72633b6a4157"
+    },
+    {
+        "size": "5",
+        "name": "mintTokens",
+        "batchNonce": 18,
+        "transactions": [
+            {
+                "batchNonce": 18,
+                "positionNonce": 0,
+                "latency": 0.098
+            },
+            {
+                "batchNonce": 18,
+                "positionNonce": 1,
+                "latency": 0.093
+            },
+            {
+                "batchNonce": 18,
+                "positionNonce": 2,
+                "latency": 0.09
+            },
+            {
+                "batchNonce": 18,
+                "positionNonce": 3,
+                "latency": 0.098
+            }
+        ],
+        "gasCost": "213003",
+        "sepoliaTxHash": "0x529a37f593705c9ae7ffcc0d7b4ba64826a156eb512d8d2c75da827b3d77b404"
+    },
+    {
+        "size": "5",
+        "name": "burnTokens",
+        "batchNonce": 19,
+        "transactions": [
+            {
+                "batchNonce": 19,
+                "positionNonce": 0,
+                "latency": 0.11
+            },
+            {
+                "batchNonce": 19,
+                "positionNonce": 1,
+                "latency": 0.1
+            },
+            {
+                "batchNonce": 19,
+                "positionNonce": 2,
+                "latency": 0.098
+            },
+            {
+                "batchNonce": 19,
+                "positionNonce": 3,
+                "latency": 0.104
+            }
+        ],
+        "gasCost": "243387",
+        "sepoliaTxHash": "0x057ee7855909669539fa6acf348b7243e9fd50e2a88c6cf38807a37320b9a49f"
+    },
+    {
+        "size": "5",
+        "name": "settlePartnerDebt",
+        "batchNonce": 20,
+        "transactions": [
+            {
+                "batchNonce": 20,
+                "positionNonce": 0,
+                "latency": 0.087
+            },
+            {
+                "batchNonce": 20,
+                "positionNonce": 1,
+                "latency": 0.089
+            },
+            {
+                "batchNonce": 20,
+                "positionNonce": 2,
+                "latency": 0.08
+            },
+            {
+                "batchNonce": 20,
+                "positionNonce": 3,
+                "latency": 0.085
+            }
+        ],
+        "gasCost": "111045",
+        "sepoliaTxHash": "0xc409e7c60f9478a229388c5ead71d8d188fe44768eb4026bf68c861de4c58f1a"
+    },
+    {
+        "size": "6",
+        "name": "addPartnerCompany",
+        "batchNonce": 21,
+        "transactions": [
+            {
+                "batchNonce": 21,
+                "positionNonce": 0,
+                "latency": 0.096
+            },
+            {
+                "batchNonce": 21,
+                "positionNonce": 1,
+                "latency": 0.087
+            },
+            {
+                "batchNonce": 21,
+                "positionNonce": 2,
+                "latency": 0.104
+            },
+            {
+                "batchNonce": 21,
+                "positionNonce": 3,
+                "latency": 0.117
+            },
+            {
+                "batchNonce": 21,
+                "positionNonce": 4,
+                "latency": 0.093
+            }
+        ],
+        "gasCost": "230904",
+        "sepoliaTxHash": "0x75a9536b65c7b591bd60d8e25fb2e1b38dce3bdfe58c5cf5d393fac5026a9ce5"
+    },
+    {
+        "size": "6",
+        "name": "addWorker",
+        "batchNonce": 22,
+        "transactions": [
+            {
+                "batchNonce": 22,
+                "positionNonce": 0,
+                "latency": 0.09
+            },
+            {
+                "batchNonce": 22,
+                "positionNonce": 1,
+                "latency": 0.079
+            },
+            {
+                "batchNonce": 22,
+                "positionNonce": 2,
+                "latency": 0.083
+            },
+            {
+                "batchNonce": 22,
+                "positionNonce": 3,
+                "latency": 0.08
+            },
+            {
+                "batchNonce": 22,
+                "positionNonce": 4,
+                "latency": 0.084
+            }
+        ],
+        "gasCost": "223922",
+        "sepoliaTxHash": "0x6b45fdb473bad39b8d02d06b52f8c776b1cb2dfe58e6a6817d9aafbe54898857"
+    },
+    {
+        "size": "6",
+        "name": "mintTokens",
+        "batchNonce": 23,
+        "transactions": [
+            {
+                "batchNonce": 23,
+                "positionNonce": 0,
+                "latency": 0.099
+            },
+            {
+                "batchNonce": 23,
+                "positionNonce": 1,
+                "latency": 0.096
+            },
+            {
+                "batchNonce": 23,
+                "positionNonce": 2,
+                "latency": 0.087
+            },
+            {
+                "batchNonce": 23,
+                "positionNonce": 3,
+                "latency": 0.085
+            },
+            {
+                "batchNonce": 23,
+                "positionNonce": 4,
+                "latency": 0.089
+            }
+        ],
+        "gasCost": "251911",
+        "sepoliaTxHash": "0xc763eb5b4eb475b5ffd2926a2f73ac81503e802b9cef7e36fe3bcd6953fd37a8"
+    },
+    {
+        "size": "6",
+        "name": "burnTokens",
+        "batchNonce": 24,
+        "transactions": [
+            {
+                "batchNonce": 24,
+                "positionNonce": 0,
+                "latency": 0.104
+            },
+            {
+                "batchNonce": 24,
+                "positionNonce": 1,
+                "latency": 0.094
+            },
+            {
+                "batchNonce": 24,
+                "positionNonce": 2,
+                "latency": 0.108
+            },
+            {
+                "batchNonce": 24,
+                "positionNonce": 3,
+                "latency": 0.097
+            },
+            {
+                "batchNonce": 24,
+                "positionNonce": 4,
+                "latency": 0.1
+            }
+        ],
+        "gasCost": "289912",
+        "sepoliaTxHash": "0xd69a7d57303fb8fb550218b72fff5f58c81e792976968441c22807b098994ddf"
+    },
+    {
+        "size": "6",
+        "name": "settlePartnerDebt",
+        "batchNonce": 25,
+        "transactions": [
+            {
+                "batchNonce": 25,
+                "positionNonce": 0,
+                "latency": 0.09
+            },
+            {
+                "batchNonce": 25,
+                "positionNonce": 1,
+                "latency": 0.089
+            },
+            {
+                "batchNonce": 25,
+                "positionNonce": 2,
+                "latency": 0.078
+            },
+            {
+                "batchNonce": 25,
+                "positionNonce": 3,
+                "latency": 0.09
+            },
+            {
+                "batchNonce": 25,
+                "positionNonce": 4,
+                "latency": 0.087
+            }
+        ],
+        "gasCost": "125186",
+        "sepoliaTxHash": "0x0a74a4cfae585d46c012954ffba705f58daad455cf8980e4c7448f7388f80862"
+    },
+    {
+        "size": "7",
+        "name": "addPartnerCompany",
+        "batchNonce": 26,
+        "transactions": [
+            {
+                "batchNonce": 26,
+                "positionNonce": 0,
+                "latency": 0.098
+            },
+            {
+                "batchNonce": 26,
+                "positionNonce": 1,
+                "latency": 0.088
+            },
+            {
+                "batchNonce": 26,
+                "positionNonce": 2,
+                "latency": 0.086
+            },
+            {
+                "batchNonce": 26,
+                "positionNonce": 3,
+                "latency": 0.096
+            },
+            {
+                "batchNonce": 26,
+                "positionNonce": 4,
+                "latency": 0.103
+            },
+            {
+                "batchNonce": 26,
+                "positionNonce": 5,
+                "latency": 0.113
+            }
+        ],
+        "gasCost": "266225",
+        "sepoliaTxHash": "0x73340ca18655a789b5760c826aa6a001603178e8d37a29f2ab7e0184b767e4ce"
+    },
+    {
+        "size": "7",
+        "name": "addWorker",
+        "batchNonce": 27,
+        "transactions": [
+            {
+                "batchNonce": 27,
+                "positionNonce": 0,
+                "latency": 0.127
+            },
+            {
+                "batchNonce": 27,
+                "positionNonce": 1,
+                "latency": 0.107
+            },
+            {
+                "batchNonce": 27,
+                "positionNonce": 2,
+                "latency": 0.093
+            },
+            {
+                "batchNonce": 27,
+                "positionNonce": 3,
+                "latency": 0.348
+            },
+            {
+                "batchNonce": 27,
+                "positionNonce": 4,
+                "latency": 0.214
+            },
+            {
+                "batchNonce": 27,
+                "positionNonce": 5,
+                "latency": 0.128
+            }
+        ],
+        "gasCost": "257855",
+        "sepoliaTxHash": "0x067d2d3bce0c4da57b8d4718b02b2e79681c3175e95948710651d0a5d80b05b1"
+    },
+    {
+        "size": "7",
+        "name": "mintTokens",
+        "batchNonce": 28,
+        "transactions": [
+            {
+                "batchNonce": 28,
+                "positionNonce": 0,
+                "latency": 0.146
+            },
+            {
+                "batchNonce": 28,
+                "positionNonce": 1,
+                "latency": 0.123
+            },
+            {
+                "batchNonce": 28,
+                "positionNonce": 2,
+                "latency": 0.11
+            },
+            {
+                "batchNonce": 28,
+                "positionNonce": 3,
+                "latency": 0.116
+            },
+            {
+                "batchNonce": 28,
+                "positionNonce": 4,
+                "latency": 0.096
+            },
+            {
+                "batchNonce": 28,
+                "positionNonce": 5,
+                "latency": 0.109
+            }
+        ],
+        "gasCost": "290886",
+        "sepoliaTxHash": "0xcc21f0adfe2be2e1259f50dba9af001ad60e1b4521c51476a25f367864802ace"
+    },
+    {
+        "size": "7",
+        "name": "burnTokens",
+        "batchNonce": 29,
+        "transactions": [
+            {
+                "batchNonce": 29,
+                "positionNonce": 0,
+                "latency": 0.122
+            },
+            {
+                "batchNonce": 29,
+                "positionNonce": 1,
+                "latency": 0.11
+            },
+            {
+                "batchNonce": 29,
+                "positionNonce": 2,
+                "latency": 0.118
+            },
+            {
+                "batchNonce": 29,
+                "positionNonce": 3,
+                "latency": 0.113
+            },
+            {
+                "batchNonce": 29,
+                "positionNonce": 4,
+                "latency": 0.116
+            },
+            {
+                "batchNonce": 29,
+                "positionNonce": 5,
+                "latency": 0.117
+            }
+        ],
+        "gasCost": "336410",
+        "sepoliaTxHash": "0xbd04a1d8bba8bfb81762178744c34dfd8b72010b46c04dcbced3458b2bc5a47a"
+    },
+    {
+        "size": "7",
+        "name": "settlePartnerDebt",
+        "batchNonce": 30,
+        "transactions": [
+            {
+                "batchNonce": 30,
+                "positionNonce": 0,
+                "latency": 0.098
+            },
+            {
+                "batchNonce": 30,
+                "positionNonce": 1,
+                "latency": 0.095
+            },
+            {
+                "batchNonce": 30,
+                "positionNonce": 2,
+                "latency": 0.095
+            },
+            {
+                "batchNonce": 30,
+                "positionNonce": 3,
+                "latency": 0.106
+            },
+            {
+                "batchNonce": 30,
+                "positionNonce": 4,
+                "latency": 0.094
+            },
+            {
+                "batchNonce": 30,
+                "positionNonce": 5,
+                "latency": 0.1
+            }
+        ],
+        "gasCost": "139383",
+        "sepoliaTxHash": "0xc1404d793ade0227a83bf76b2d473930249d1e7e049538861f3671ac0361aa88"
+    },
+    {
+        "size": "8",
+        "name": "addPartnerCompany",
+        "batchNonce": 31,
+        "transactions": [
+            {
+                "batchNonce": 31,
+                "positionNonce": 0,
+                "latency": 0.094
+            },
+            {
+                "batchNonce": 31,
+                "positionNonce": 1,
+                "latency": 0.09
+            },
+            {
+                "batchNonce": 31,
+                "positionNonce": 2,
+                "latency": 0.092
+            },
+            {
+                "batchNonce": 31,
+                "positionNonce": 3,
+                "latency": 0.097
+            },
+            {
+                "batchNonce": 31,
+                "positionNonce": 4,
+                "latency": 0.097
+            },
+            {
+                "batchNonce": 31,
+                "positionNonce": 5,
+                "latency": 0.101
+            },
+            {
+                "batchNonce": 31,
+                "positionNonce": 6,
+                "latency": 0.106
+            }
+        ],
+        "gasCost": "301450",
+        "sepoliaTxHash": "0x6ac733b67465c5685a78fc2a0c4653303c25675dacfd4d2fe4e183fc08f45c43"
+    },
+    {
+        "size": "8",
+        "name": "addWorker",
+        "batchNonce": 32,
+        "transactions": [
+            {
+                "batchNonce": 32,
+                "positionNonce": 0,
+                "latency": 0.099
+            },
+            {
+                "batchNonce": 32,
+                "positionNonce": 1,
+                "latency": 0.088
+            },
+            {
+                "batchNonce": 32,
+                "positionNonce": 2,
+                "latency": 0.095
+            },
+            {
+                "batchNonce": 32,
+                "positionNonce": 3,
+                "latency": 0.091
+            },
+            {
+                "batchNonce": 32,
+                "positionNonce": 4,
+                "latency": 0.09
+            },
+            {
+                "batchNonce": 32,
+                "positionNonce": 5,
+                "latency": 0.093
+            },
+            {
+                "batchNonce": 32,
+                "positionNonce": 6,
+                "latency": 0.086
+            }
+        ],
+        "gasCost": "291750",
+        "sepoliaTxHash": "0xa03217c3f2a5cffdf741ccc824d73ea929485efad86c6cd24752765d3bb66be3"
+    },
+    {
+        "size": "8",
+        "name": "mintTokens",
+        "batchNonce": 33,
+        "transactions": [
+            {
+                "batchNonce": 33,
+                "positionNonce": 0,
+                "latency": 0.112
+            },
+            {
+                "batchNonce": 33,
+                "positionNonce": 1,
+                "latency": 0.113
+            },
+            {
+                "batchNonce": 33,
+                "positionNonce": 2,
+                "latency": 0.105
+            },
+            {
+                "batchNonce": 33,
+                "positionNonce": 3,
+                "latency": 0.12
+            },
+            {
+                "batchNonce": 33,
+                "positionNonce": 4,
+                "latency": 0.109
+            },
+            {
+                "batchNonce": 33,
+                "positionNonce": 5,
+                "latency": 0.097
+            },
+            {
+                "batchNonce": 33,
+                "positionNonce": 6,
+                "latency": 0.097
+            }
+        ],
+        "gasCost": "329756",
+        "sepoliaTxHash": "0x4e7800400f8a49c8fc59613745d8ec88554e99c3cfbb097689e8de455894ab38"
+    },
+    {
+        "size": "8",
+        "name": "burnTokens",
+        "batchNonce": 34,
+        "transactions": [
+            {
+                "batchNonce": 34,
+                "positionNonce": 0,
+                "latency": 0.116
+            },
+            {
+                "batchNonce": 34,
+                "positionNonce": 1,
+                "latency": 0.118
+            },
+            {
+                "batchNonce": 34,
+                "positionNonce": 2,
+                "latency": 0.12
+            },
+            {
+                "batchNonce": 34,
+                "positionNonce": 3,
+                "latency": 0.133
+            },
+            {
+                "batchNonce": 34,
+                "positionNonce": 4,
+                "latency": 0.147
+            },
+            {
+                "batchNonce": 34,
+                "positionNonce": 5,
+                "latency": 0.112
+            },
+            {
+                "batchNonce": 34,
+                "positionNonce": 6,
+                "latency": 0.11
+            }
+        ],
+        "gasCost": "382941",
+        "sepoliaTxHash": "0xf9187529599eac2a34abcc2de8e5a2f48aa00d05a624c9b34be30be332ad4519"
+    },
+    {
+        "size": "8",
+        "name": "settlePartnerDebt",
+        "batchNonce": 35,
+        "transactions": [
+            {
+                "batchNonce": 35,
+                "positionNonce": 0,
+                "latency": 0.1
+            },
+            {
+                "batchNonce": 35,
+                "positionNonce": 1,
+                "latency": 0.105
+            },
+            {
+                "batchNonce": 35,
+                "positionNonce": 2,
+                "latency": 0.101
+            },
+            {
+                "batchNonce": 35,
+                "positionNonce": 3,
+                "latency": 0.115
+            },
+            {
+                "batchNonce": 35,
+                "positionNonce": 4,
+                "latency": 0.106
+            },
+            {
+                "batchNonce": 35,
+                "positionNonce": 5,
+                "latency": 0.103
+            },
+            {
+                "batchNonce": 35,
+                "positionNonce": 6,
+                "latency": 0.101
+            }
+        ],
+        "gasCost": "153484",
+        "sepoliaTxHash": "0xe24027725639b6ab0d8d1f6082c3901437f87a3ccedb6ba4006efb0535738400"
+    },
+    {
+        "size": "9",
+        "name": "addPartnerCompany",
+        "batchNonce": 36,
+        "transactions": [
+            {
+                "batchNonce": 36,
+                "positionNonce": 0,
+                "latency": 0.105
+            },
+            {
+                "batchNonce": 36,
+                "positionNonce": 1,
+                "latency": 0.121
+            },
+            {
+                "batchNonce": 36,
+                "positionNonce": 2,
+                "latency": 0.109
+            },
+            {
+                "batchNonce": 36,
+                "positionNonce": 3,
+                "latency": 0.11
+            },
+            {
+                "batchNonce": 36,
+                "positionNonce": 4,
+                "latency": 0.103
+            },
+            {
+                "batchNonce": 36,
+                "positionNonce": 5,
+                "latency": 0.1
+            },
+            {
+                "batchNonce": 36,
+                "positionNonce": 6,
+                "latency": 0.1
+            },
+            {
+                "batchNonce": 36,
+                "positionNonce": 7,
+                "latency": 0.101
+            }
+        ],
+        "gasCost": "336819",
+        "sepoliaTxHash": "0x8c584d46c52b100ab8cfbc6bd5136cbda4dc6e03db90b27fb3e5d6800d1123bf"
+    },
+    {
+        "size": "9",
+        "name": "addWorker",
+        "batchNonce": 37,
+        "transactions": [
+            {
+                "batchNonce": 37,
+                "positionNonce": 0,
+                "latency": 0.091
+            },
+            {
+                "batchNonce": 37,
+                "positionNonce": 1,
+                "latency": 0.082
+            },
+            {
+                "batchNonce": 37,
+                "positionNonce": 2,
+                "latency": 0.085
+            },
+            {
+                "batchNonce": 37,
+                "positionNonce": 3,
+                "latency": 0.09
+            },
+            {
+                "batchNonce": 37,
+                "positionNonce": 4,
+                "latency": 0.091
+            },
+            {
+                "batchNonce": 37,
+                "positionNonce": 5,
+                "latency": 0.091
+            },
+            {
+                "batchNonce": 37,
+                "positionNonce": 6,
+                "latency": 0.084
+            },
+            {
+                "batchNonce": 37,
+                "positionNonce": 7,
+                "latency": 0.093
+            }
+        ],
+        "gasCost": "325495",
+        "sepoliaTxHash": "0xc4e21876c8ea7400d930748708c17faca1f24bc9f7d0d86fa9c2c8e0adc3b5ad"
+    },
+    {
+        "size": "9",
+        "name": "mintTokens",
+        "batchNonce": 38,
+        "transactions": [
+            {
+                "batchNonce": 38,
+                "positionNonce": 0,
+                "latency": 0.105
+            },
+            {
+                "batchNonce": 38,
+                "positionNonce": 1,
+                "latency": 0.096
+            },
+            {
+                "batchNonce": 38,
+                "positionNonce": 2,
+                "latency": 0.098
+            },
+            {
+                "batchNonce": 38,
+                "positionNonce": 3,
+                "latency": 0.145
+            },
+            {
+                "batchNonce": 38,
+                "positionNonce": 4,
+                "latency": 0.108
+            },
+            {
+                "batchNonce": 38,
+                "positionNonce": 5,
+                "latency": 0.162
+            },
+            {
+                "batchNonce": 38,
+                "positionNonce": 6,
+                "latency": 0.086
+            },
+            {
+                "batchNonce": 38,
+                "positionNonce": 7,
+                "latency": 0.095
+            }
+        ],
+        "gasCost": "368633",
+        "sepoliaTxHash": "0x519164bf32228e0c93f12b7af40009099e35a76ae5bf1951ae838e8852d3fb90"
+    },
+    {
+        "size": "9",
+        "name": "burnTokens",
+        "batchNonce": 39,
+        "transactions": [
+            {
+                "batchNonce": 39,
+                "positionNonce": 0,
+                "latency": 0.119
+            },
+            {
+                "batchNonce": 39,
+                "positionNonce": 1,
+                "latency": 0.105
+            },
+            {
+                "batchNonce": 39,
+                "positionNonce": 2,
+                "latency": 0.113
+            },
+            {
+                "batchNonce": 39,
+                "positionNonce": 3,
+                "latency": 0.099
+            },
+            {
+                "batchNonce": 39,
+                "positionNonce": 4,
+                "latency": 0.149
+            },
+            {
+                "batchNonce": 39,
+                "positionNonce": 5,
+                "latency": 0.195
+            },
+            {
+                "batchNonce": 39,
+                "positionNonce": 6,
+                "latency": 0.122
+            },
+            {
+                "batchNonce": 39,
+                "positionNonce": 7,
+                "latency": 0.11
+            }
+        ],
+        "gasCost": "429462",
+        "sepoliaTxHash": "0xbb4edf8b7695458f272c97ca6d1f9542c3d887ca5a8e2dc88782b4800e2f4ad0"
+    },
+    {
+        "size": "9",
+        "name": "settlePartnerDebt",
+        "batchNonce": 40,
+        "transactions": [
+            {
+                "batchNonce": 40,
+                "positionNonce": 0,
+                "latency": 0.105
+            },
+            {
+                "batchNonce": 40,
+                "positionNonce": 1,
+                "latency": 0.085
+            },
+            {
+                "batchNonce": 40,
+                "positionNonce": 2,
+                "latency": 0.085
+            },
+            {
+                "batchNonce": 40,
+                "positionNonce": 3,
+                "latency": 0.105
+            },
+            {
+                "batchNonce": 40,
+                "positionNonce": 4,
+                "latency": 0.102
+            },
+            {
+                "batchNonce": 40,
+                "positionNonce": 5,
+                "latency": 0.098
+            },
+            {
+                "batchNonce": 40,
+                "positionNonce": 6,
+                "latency": 0.105
+            },
+            {
+                "batchNonce": 40,
+                "positionNonce": 7,
+                "latency": 0.09
+            }
+        ],
+        "gasCost": "167623",
+        "sepoliaTxHash": "0x4c6140085dde2543a9558382fcb0d34d36471881d683435e83340703a215ddcb"
+    },
+    {
+        "size": "10",
+        "name": "addPartnerCompany",
+        "batchNonce": 41,
+        "transactions": [
+            {
+                "batchNonce": 41,
+                "positionNonce": 0,
+                "latency": 0.089
+            },
+            {
+                "batchNonce": 41,
+                "positionNonce": 1,
+                "latency": 0.094
+            },
+            {
+                "batchNonce": 41,
+                "positionNonce": 2,
+                "latency": 0.128
+            },
+            {
+                "batchNonce": 41,
+                "positionNonce": 3,
+                "latency": 0.199
+            },
+            {
+                "batchNonce": 41,
+                "positionNonce": 4,
+                "latency": 0.167
+            },
+            {
+                "batchNonce": 41,
+                "positionNonce": 5,
+                "latency": 0.173
+            },
+            {
+                "batchNonce": 41,
+                "positionNonce": 6,
+                "latency": 0.15
+            },
+            {
+                "batchNonce": 41,
+                "positionNonce": 7,
+                "latency": 0.123
+            },
+            {
+                "batchNonce": 41,
+                "positionNonce": 8,
+                "latency": 0.127
+            }
+        ],
+        "gasCost": "372110",
+        "sepoliaTxHash": "0xa90c4de0dfcf66d43b8cbb5a7bf44b5e9de986b7a5a406d10cdfbeb9e0284f7c"
+    },
+    {
+        "size": "10",
+        "name": "addWorker",
+        "batchNonce": 42,
+        "transactions": [
+            {
+                "batchNonce": 42,
+                "positionNonce": 0,
+                "latency": 0.132
+            },
+            {
+                "batchNonce": 42,
+                "positionNonce": 1,
+                "latency": 0.103
+            },
+            {
+                "batchNonce": 42,
+                "positionNonce": 2,
+                "latency": 0.12
+            },
+            {
+                "batchNonce": 42,
+                "positionNonce": 3,
+                "latency": 0.094
+            },
+            {
+                "batchNonce": 42,
+                "positionNonce": 4,
+                "latency": 0.096
+            },
+            {
+                "batchNonce": 42,
+                "positionNonce": 5,
+                "latency": 0.121
+            },
+            {
+                "batchNonce": 42,
+                "positionNonce": 6,
+                "latency": 0.107
+            },
+            {
+                "batchNonce": 42,
+                "positionNonce": 7,
+                "latency": 0.115
+            },
+            {
+                "batchNonce": 42,
+                "positionNonce": 8,
+                "latency": 0.112
+            }
+        ],
+        "gasCost": "359533",
+        "sepoliaTxHash": "0xe14cbf58be6ebb139fc64cabd0d7f4c93be07e2fa076bc4e3957a2854b773319"
+    },
+    {
+        "size": "10",
+        "name": "mintTokens",
+        "batchNonce": 43,
+        "transactions": [
+            {
+                "batchNonce": 43,
+                "positionNonce": 0,
+                "latency": 0.139
+            },
+            {
+                "batchNonce": 43,
+                "positionNonce": 1,
+                "latency": 0.108
+            },
+            {
+                "batchNonce": 43,
+                "positionNonce": 2,
+                "latency": 0.122
+            },
+            {
+                "batchNonce": 43,
+                "positionNonce": 3,
+                "latency": 0.126
+            },
+            {
+                "batchNonce": 43,
+                "positionNonce": 4,
+                "latency": 0.129
+            },
+            {
+                "batchNonce": 43,
+                "positionNonce": 5,
+                "latency": 0.148
+            },
+            {
+                "batchNonce": 43,
+                "positionNonce": 6,
+                "latency": 0.16
+            },
+            {
+                "batchNonce": 43,
+                "positionNonce": 7,
+                "latency": 0.15
+            },
+            {
+                "batchNonce": 43,
+                "positionNonce": 8,
+                "latency": 0.131
+            }
+        ],
+        "gasCost": "407679",
+        "sepoliaTxHash": "0xaae4ab626d2e809ef35c9ba9ebc6c6e9683046581db6fcf374bfffa1ae3aae3f"
+    },
+    {
+        "size": "10",
+        "name": "burnTokens",
+        "batchNonce": 44,
+        "transactions": [
+            {
+                "batchNonce": 44,
+                "positionNonce": 0,
+                "latency": 0.132
+            },
+            {
+                "batchNonce": 44,
+                "positionNonce": 1,
+                "latency": 0.137
+            },
+            {
+                "batchNonce": 44,
+                "positionNonce": 2,
+                "latency": 0.134
+            },
+            {
+                "batchNonce": 44,
+                "positionNonce": 3,
+                "latency": 0.125
+            },
+            {
+                "batchNonce": 44,
+                "positionNonce": 4,
+                "latency": 0.142
+            },
+            {
+                "batchNonce": 44,
+                "positionNonce": 5,
+                "latency": 0.139
+            },
+            {
+                "batchNonce": 44,
+                "positionNonce": 6,
+                "latency": 0.124
+            },
+            {
+                "batchNonce": 44,
+                "positionNonce": 7,
+                "latency": 0.132
+            },
+            {
+                "batchNonce": 44,
+                "positionNonce": 8,
+                "latency": 0.159
+            }
+        ],
+        "gasCost": "475963",
+        "sepoliaTxHash": "0xc78e3d56f247994e3c4847912847d8d3731fadcf1fca19f9e9d1e3ddd0326811"
+    },
+    {
+        "size": "10",
+        "name": "settlePartnerDebt",
+        "batchNonce": 45,
+        "transactions": [
+            {
+                "batchNonce": 45,
+                "positionNonce": 0,
+                "latency": 0.116
+            },
+            {
+                "batchNonce": 45,
+                "positionNonce": 1,
+                "latency": 0.106
+            },
+            {
+                "batchNonce": 45,
+                "positionNonce": 2,
+                "latency": 0.122
+            },
+            {
+                "batchNonce": 45,
+                "positionNonce": 3,
+                "latency": 0.127
+            },
+            {
+                "batchNonce": 45,
+                "positionNonce": 4,
+                "latency": 0.118
+            },
+            {
+                "batchNonce": 45,
+                "positionNonce": 5,
+                "latency": 0.112
+            },
+            {
+                "batchNonce": 45,
+                "positionNonce": 6,
+                "latency": 0.101
+            },
+            {
+                "batchNonce": 45,
+                "positionNonce": 7,
+                "latency": 0.105
+            },
+            {
+                "batchNonce": 45,
+                "positionNonce": 8,
+                "latency": 0.113
+            }
+        ],
+        "gasCost": "181795",
+        "sepoliaTxHash": "0x1221cadfe32866832a9430c274c82d50e4db890b37c29b96e5416c5606d2afd9"
+    }
+]

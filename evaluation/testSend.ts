@@ -4,6 +4,8 @@ const path = require('path');
 const { ThanksPaySalaryToken__factory } = require("../typechain-types");
 const iface = new ethers.utils.Interface(ThanksPaySalaryToken__factory.abi);
 
+let gasCosts: any = [];
+
 const main = async () => {
     // Setup provider and signer
     const provider = new ethers.providers.JsonRpcProvider('http://127.0.0.1:8545');
@@ -39,5 +41,5 @@ const main = async () => {
 }
 
 main().then(() => {
-    console.log("DOne!");
+    console.log("Done!");
 });

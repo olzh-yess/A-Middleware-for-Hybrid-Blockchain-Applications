@@ -3,7 +3,10 @@ const socket = io('http://localhost:3000'); // point to your Nest.js application
 const { ethers } = require('ethers');
 
 const { ThanksPaySalaryToken__factory } = require("../typechain-types");
-const iface = new ethers.Interface(ThanksPaySalaryToken__factory.abi);
+const iface = new ethers.utils.Interface(ThanksPaySalaryToken__factory.abi);
+var fs = require('fs');
+var path = require('path');
+
 
 const startTime = Date.now();
 
@@ -24,8 +27,8 @@ socket.on('parameter_response', async (response: any) => {
 
     const signer = ethers.Wallet.createRandom(); // Generate a random public key
     // User signs the transaction
-    const hash = ethers.solidityPackedKeccak256(['bytes', 'uint256', 'uint256'], [txData, batchNonce, positionNonce]);
-    const sigUser = await signer.signMessage(ethers.getBytes(hash));
+    const hash = ethers.utils.solidityKeccak256(['bytes', 'uint256', 'uint256'], [txData, batchNonce, positionNonce]);
+    const sigUser = await signer.signMessage(ethers.utils.arrayify(hash));
 
     // User sends the transaction to the server
     socket.emit('transaction_submission', { txData, sigUser });

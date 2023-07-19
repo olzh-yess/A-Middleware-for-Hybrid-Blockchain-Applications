@@ -21,6 +21,4 @@ async function tx() {
         .catch(err => console.error(err.response.data));
 }
 
-
-
 tx();

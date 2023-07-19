@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { ethers, Wallet } from 'ethers';
 import { ThanksPaySalaryToken__factory } from "../../typechain-types/factories/contracts/ThanksPayERC20.sol/ThanksPaySalaryToken__factory"
 import { BatcherAccountable__factory } from "../../typechain-types/factories/contracts/BatcherAccountable__factory"
+import { readJSON } from '../../utils/readJSON';
 import * as fs from 'fs';
 const ganache = require('ganache');
 import path from 'path';
@@ -9,8 +10,8 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Batch } from './entities/batch.entity';
 import { Transaction } from './entities/transaction.entity';
 import { Repository } from 'typeorm';
-import { readJSON } from '../../utils/readJSON';
 import { config } from 'dotenv';
+import {getContract} from "../../utils/getContracts";
 config();
 
 @Injectable()
@@ -55,30 +56,23 @@ export class BatcherService {
 
         console.log(mnemonic);
 
-        this.sepoliaProvider = new ethers.InfuraProvider('sepolia', process.env.INFURA_ID);
-        this.ganacheProvider = new ethers.JsonRpcProvider('http://127.0.0.1:8545');
+        this.sepoliaProvider = new ethers.providers.InfuraProvider('sepolia', process.env.INFURA_ID);
+        this.ganacheProvider = new ethers.providers.JsonRpcProvider('http://127.0.0.1:8545');
 
 
-        this.ownerSigner = ethers.Wallet.fromPhrase(mnemonic as string);
+        this.ownerSigner = ethers.Wallet.fromMnemonic(mnemonic as string);
         this.sepoliaSigner = this.ownerSigner.connect(this.sepoliaProvider);
         this.ganacheSigner = this.ownerSigner.connect(this.ganacheProvider);
 
         // instantiate the smart contract here
-        this.sepoliaBatcher = BatcherAccountable__factory.connect(
-            this.addresses.sepolia.BatcherAccountable,
-            this.sepoliaSigner
-        );
+        this.sepoliaBatcher = getContract("BatcherAccountable", "sepolia");
 
         // instantiate the smart contract here
-        this.ganacheBatcher = BatcherAccountable__factory.connect(
-            this.addresses.ganache.BatcherAccountable,
-            this.ganacheSigner
-        );
+        this.ganacheBatcher = getContract("BatcherAccountable", "ganache");
 
-        this.sepoliaThanksPay = ThanksPaySalaryToken__factory.connect(
-            this.addresses.sepolia.ThanksPaySalaryToken,
-            this.ganacheSigner
-        );
+        this.sepoliaThanksPay = getContract("ThanksPaySalaryToken", "sepolia");
+
+        this.ganacheThanksPay = getContract("ThanksPaySalaryToken", "ganache");
     }
 
     getSepoliaBatcher() {
@@ -101,14 +95,17 @@ export class BatcherService {
         return this.addresses;
     }
 
-    async executeOnGanache(messageHash: any, txData: any, sig: any) {
-        let messageSigner = ethers.verifyMessage(messageHash, sig);
-        console.log(messageSigner);
-        const msgSender = ethers.AbiCoder.defaultAbiCoder().encode(["address"], [messageSigner]);
-        // console.log(method, address);
-        const appendedData = ethers.concat([txData, msgSender]);
+    setMaxBatchSize(max: number) {
+        this.MAX_BATCH = max;
+        return this.MAX_BATCH;        
+    }
 
-        console.log(msgSender, " BREAK ", appendedData);
+    async executeOnGanache(messageHash: any, txData: any, sig: any) {
+        let messageSigner = ethers.utils.verifyMessage(messageHash, sig);
+        console.log("Recovered address:", messageSigner);
+        const msgSender = ethers.utils.defaultAbiCoder.encode(["address"], [messageSigner]);
+        // console.log(method, address);
+        const appendedData = ethers.utils.hexConcat([txData, msgSender]);
         // Send transaction directly to smart contract
         let tx = {
             to: this.addresses.ganache.ThanksPaySalaryToken,
@@ -121,8 +118,10 @@ export class BatcherService {
     }
 
     checkIfOwnerTransaction(txData: any) {
-        const iface = new ethers.Interface(ThanksPaySalaryToken__factory.abi);
+        const iface = new ethers.utils.Interface(ThanksPaySalaryToken__factory.abi);
         const parsedTransaction = iface.parseTransaction({ data: txData });
+        console.log("Executing function: ", parsedTransaction?.name);
+        console.log("With params:", parsedTransaction.args);
         if (this.ownerFunctions.includes(parsedTransaction?.name)) {
             return true;
         } else {
@@ -138,12 +137,13 @@ export class BatcherService {
         let batches = await this.batchRepository.find({ order: { batchNonce: "DESC" } });
         let batch = batches[0];
 
-        let positionNonce = 0; 
+        let MIN_POSITION = -1; // So that when you +1 it, the smallest is zero!
+        let positionNonce = MIN_POSITION; 
 
         if (batch) {
             let transactions = await this.transactionRepository.find({ where: { batchNonce: batch.batchNonce }, order: { positionNonce: 'DESC' } });
             let transaction = transactions[0];
-            positionNonce = transaction ? transaction.positionNonce : 0;
+            positionNonce = transaction ? transaction.positionNonce : MIN_POSITION;
         }
 
         if (!batch || positionNonce >= this.MAX_BATCH) {
@@ -151,7 +151,7 @@ export class BatcherService {
             batch = this.batchRepository.create();
             batch = await this.batchRepository.save(batch);
 
-            positionNonce = 0;  // Reset the position nonce
+            positionNonce = MIN_POSITION;  // Reset the position nonce
         }
 
         return {
