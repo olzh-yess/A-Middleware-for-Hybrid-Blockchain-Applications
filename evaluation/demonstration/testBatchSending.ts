@@ -2,7 +2,7 @@ import { createConnection, getRepository } from 'typeorm';
 import { Batch } from "../../src/batcher/entities/batch.entity";
 import { Transaction } from "../../src/batcher/entities/transaction.entity";
 import { getContract } from '../../utils/getContracts';
-import { BatcherAccountable } from '../../typechain-types/contracts/BatcherAccountable';
+import { Relayer } from '../../typechain-types/contracts/Relayer';
 import { ThanksPaySalaryToken__factory } from '../../typechain-types';
 import { readJSON } from '../../utils/readJSON';
 import { ethers } from 'ethers';
@@ -53,7 +53,7 @@ const readBatch = async () => {
 const sendBatches = async (networkName: "ganache" | "sepolia") => {
     let solutionResults = readJSON("../test/data/solutionResults.json");
     const formattedBatches = await readBatch();
-    const batcher = getContract("BatcherAccountable", networkName) as BatcherAccountable;
+    const batcher = getContract("Relayer", networkName) as Relayer;
 
     const addresses = readJSON('../contract-addresses.json');
 
@@ -69,7 +69,7 @@ const sendBatches = async (networkName: "ganache" | "sepolia") => {
             0
             ])), batch.sigs[0]));
         try {
-            const tx = await batcher.executeTransactions(
+            const tx = await batcher.relayTransactions(
                 addresses[networkName].ThanksPaySalaryToken,
                 batch.txData,
                 batch.sigs,

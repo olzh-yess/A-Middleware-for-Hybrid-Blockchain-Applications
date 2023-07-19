@@ -14,8 +14,7 @@ const fs = require("fs");
 const path = require("path");
 const mnemonic = process.env.SEPOLIA_MNEMONIC ? process.env.SEPOLIA_MNEMONIC : "MNEMONIC NOT FOUND!";
 const { ThanksPaySalaryToken__factory } = require("./typechain-types");
-const { BatcherAccountable__factory } = require("./typechain-types");
-// const { ethers, hre } = require("hardhat");
+const { Relayer__factory } = require("./typechain-types");
 
 
 task("deploy", "Deploys the contract")
@@ -28,10 +27,10 @@ task("deploy", "Deploys the contract")
     const balance = await ethers.provider.getBalance(owner.address);
     console.log("Balance is:", balance, " on the network ", networkName);
 
-    let factory = new ethers.ContractFactory(BatcherAccountable__factory.abi, BatcherAccountable__factory.bytecode, owner);
+    let factory = new ethers.ContractFactory(Relayer__factory.abi, Relayer__factory.bytecode, owner);
 
     const batcher = await factory.deploy({ value: ethers.utils.parseUnits("0.01") });
-    // const batcher = await ethers.deployContract("BatcherAccountable", [], { value: ethers.utils.parseEther("0.01") });
+    // const batcher = await ethers.deployContract("Relayer", [], { value: ethers.utils.parseEther("0.01") });
     await batcher.deployed();
 
     console.log("Deployed the batcher!")
@@ -55,7 +54,7 @@ task("deploy", "Deploys the contract")
       const addresses = JSON.parse(fs.readFileSync(addressesPath));
 
       // Add new contract address
-      addresses[networkName]["BatcherAccountable"] = batcher.address;
+      addresses[networkName]["Relayer"] = batcher.address;
       addresses[networkName]["ThanksPaySalaryToken"] = thanksPay.address;
 
       // Write updated addresses back to file

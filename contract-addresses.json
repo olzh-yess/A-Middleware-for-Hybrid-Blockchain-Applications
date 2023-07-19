@@ -1,14 +1,14 @@
 {
   "ganache": {
     "ThanksPaySalaryToken": "0xa69df76b76884f296B90dd90C2E6820cfE746C7E",
-    "BatcherAccountable": "0x055F21Ed47f9A0cd47A3C2fc231FE6c7ee7E97d0"
+    "Relayer": "0x055F21Ed47f9A0cd47A3C2fc231FE6c7ee7E97d0"
   },
   "sepoliaDirect": {
     "ThanksPaySalaryToken": "0xFD88a9F60132d45DF9d99fdeE430C67C86501f64",
-    "BatcherAccountable": "0x35a3750cEd29140b8F7Be70C565827C40106559a"
+    "Relayer": "0x35a3750cEd29140b8F7Be70C565827C40106559a"
   },
   "sepolia": {
     "ThanksPaySalaryToken": "0xC5AC6fD552C7d03Be454414e4C562cAd29DF0413",
-    "BatcherAccountable": "0xe7B7eB1C354310819E3be17ddC24686D48Ca66Fc"
+    "Relayer": "0xe7B7eB1C354310819E3be17ddC24686D48Ca66Fc"
   }
 }

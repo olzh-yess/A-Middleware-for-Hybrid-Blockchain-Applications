@@ -4,6 +4,7 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/metatx/ERC2771Context.sol";
 import "@ganache/console.log/console.sol";
+
 contract ThanksPaySalaryToken is ERC20Burnable, ERC2771Context {
 
     // Mapping to track partner companies

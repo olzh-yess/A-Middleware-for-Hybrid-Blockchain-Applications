@@ -3,10 +3,9 @@ pragma experimental ABIEncoderV2;
 
 import 'hardhat/console.sol';
 
-contract BatcherAccountable {
+contract Relayer {
     event GET(uint256, uint256, uint256, uint256, uint256, uint256, uint256);
 
-    address private _throwawayAccount;
     address private _owner;
 
     uint256 depositFunds;
@@ -14,7 +13,7 @@ contract BatcherAccountable {
     constructor() payable {
         require(
             msg.value == 0.01 ether,
-            'Must send 0.01 ETH to initialize BatcherAccountable'
+            'Must send 0.01 ETH to initialize Relayer'
         );
         depositFunds = msg.value;
         _owner = msg.sender;
@@ -23,7 +22,7 @@ contract BatcherAccountable {
     function fund() external payable {
         require(
             msg.value == 0.01 ether,
-            'Must send 0.01 ETH to fund BatcherAccountable'
+            'Must send 0.01 ETH to fund Relayer'
         );
         depositFunds += msg.value;
     }
@@ -32,7 +31,7 @@ contract BatcherAccountable {
         uint256 gasRemaining = gasleft();
         require(
             address(this).balance >= 0.01 ether,
-            'BatcherAccountable must have enough funds to pay out deposits'
+            'Relayer must have enough funds to pay out deposits'
         );
         uint256 gasRemaining2 = gasleft();
         uint256 gasConsumed = gasRemaining - gasRemaining2;
@@ -84,28 +83,7 @@ contract BatcherAccountable {
         return txArray;
     }
 
-    function executeTransaction(
-        address contractAddr,
-        bytes calldata txData,
-        uint256 batchNonce,
-        uint256 positionNonce,
-        bytes calldata sig
-    ) public {
-        // this function is only to be called on the local network!
-        // If you want, you can move it into a separate contract. Depends on you!
-        address msgSender;
-        bytes32 msgHash;
-        msgHash = keccak256(
-            abi.encodePacked(txData, batchNonce, positionNonce)
-        );
-        msgSender = verify(msgHash, sig);
-        (bool success, ) = contractAddr.call(
-            abi.encodePacked(txData, msgSender)
-        );
-        require(success, 'Transaction execution failed');
-    }
-
-    function executeTransactions(
+    function relayTransactions(
         address contractAddr,
         bytes[] calldata txArray,
         bytes[] calldata sigs,

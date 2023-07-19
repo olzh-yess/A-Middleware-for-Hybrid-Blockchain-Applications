@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { ethers, Wallet } from 'ethers';
 import { ThanksPaySalaryToken__factory } from "../../typechain-types/factories/contracts/ThanksPayERC20.sol/ThanksPaySalaryToken__factory"
-import { BatcherAccountable__factory } from "../../typechain-types/factories/contracts/BatcherAccountable__factory"
+import { Relayer__factory } from "../../typechain-types/factories/contracts/Relayer__factory"
 import { readJSON } from '../../utils/readJSON';
 import * as fs from 'fs';
 const ganache = require('ganache');
@@ -65,10 +65,10 @@ export class BatcherService {
         this.ganacheSigner = this.ownerSigner.connect(this.ganacheProvider);
 
         // instantiate the smart contract here
-        this.sepoliaBatcher = getContract("BatcherAccountable", "sepolia");
+        this.sepoliaBatcher = getContract("Relayer", "sepolia");
 
         // instantiate the smart contract here
-        this.ganacheBatcher = getContract("BatcherAccountable", "ganache");
+        this.ganacheBatcher = getContract("Relayer", "ganache");
 
         this.sepoliaThanksPay = getContract("ThanksPaySalaryToken", "sepolia");
 

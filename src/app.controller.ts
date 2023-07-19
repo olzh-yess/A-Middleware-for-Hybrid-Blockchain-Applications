@@ -6,16 +6,16 @@ import { Post, Body } from '@nestjs/common';
 
 @Controller()
 export class AppController {
-  constructor(private readonly batcherAccountableService: BatcherService){}
+  constructor(private readonly RelayerService: BatcherService){}
 
   @Post('/register')
   async register(@Body('publicKey') publicKey: string): Promise<any> {
     // get the smart contract instance from the service
-    const sepoliaBatcherAccountable = this.batcherAccountableService.getSepoliaBatcher();
+    const sepoliaRelayer = this.RelayerService.getSepoliaBatcher();
     
     // enroll in batcher
-    await sepoliaBatcherAccountable.enroll(publicKey);
-    const throwAwayAccount = await sepoliaBatcherAccountable.throwAwayAccounts(publicKey);
+    await sepoliaRelayer.enroll(publicKey);
+    const throwAwayAccount = await sepoliaRelayer.throwAwayAccounts(publicKey);
 
     // just returning the mapped accounts as the result of the registration
     return throwAwayAccount;

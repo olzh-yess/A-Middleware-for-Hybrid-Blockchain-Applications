@@ -1,5 +1,5 @@
 import { ThanksPaySalaryToken__factory } from "../typechain-types/factories/contracts/ThanksPayERC20.sol/ThanksPaySalaryToken__factory"
-import { BatcherAccountable__factory } from "../typechain-types/factories/contracts/BatcherAccountable__factory"
+import { Relayer__factory } from "../typechain-types/factories/contracts/Relayer__factory"
 import { readJSON } from './readJSON';
 import { config } from 'dotenv';
 import { ethers } from "ethers";
@@ -7,7 +7,7 @@ import contractAddresses from '../contract-addresses.json';
 
 config();
 
-export const getContract = (contractName: "ThanksPaySalaryToken" | "BatcherAccountable", networkName: "ganache" | "sepolia" | "sepoliaDirect") => {
+export const getContract = (contractName: "ThanksPaySalaryToken" | "Relayer", networkName: "ganache" | "sepolia" | "sepoliaDirect") => {
 
     const addresses = contractAddresses;
 
@@ -25,7 +25,7 @@ export const getContract = (contractName: "ThanksPaySalaryToken" | "BatcherAccou
 
     const signer = ownerWallet.connect(provider!);
 
-    const factory = (contractName == "BatcherAccountable") ? BatcherAccountable__factory : ThanksPaySalaryToken__factory;
+    const factory = (contractName == "Relayer") ? Relayer__factory : ThanksPaySalaryToken__factory;
 
     // instantiate the smart contract here
     const contract = factory.connect(

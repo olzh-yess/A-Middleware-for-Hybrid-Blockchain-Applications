@@ -30,7 +30,7 @@ async function createAndExecuteBatch(thanksPay, batcher, owner, func, paramsList
     });
 
     const sigs = await Promise.all(signedDataPromises);
-    const tx = await batcher.connect(owner).executeTransactions(contractAddrs, encodedTransactions, sigs, 1);
+    const tx = await batcher.connect(owner).relayTransactions(contractAddrs, encodedTransactions, sigs, 1);
     const receipt = await tx.wait();
 
     return {
@@ -53,7 +53,7 @@ describe.only("ThanksPay Test 2", function () {
     beforeEach(async function () {
         this.timeout(0);
 
-        Batcher = await ethers.getContractFactory("BatcherAccountable");
+        Batcher = await ethers.getContractFactory("Relayer");
         batcher = await Batcher.deploy({value: ethers.utils.parseEther("0.01")});
         await batcher.deployed();
 
